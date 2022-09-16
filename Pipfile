@@ -8,6 +8,8 @@ beautifulsoup4 = "*"
 lxml = "*"
 ipython = "*"
 pandas = "*"
+numpy = "*"
+requests = "*"
 
 [dev-packages]
 

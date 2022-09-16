@@ -1,0 +1,5683 @@
+[
+  {
+    "path": [
+      {
+        "id": "241",
+        "link": "/football/nfl",
+        "description": "NFL",
+        "type": "LEAGUE",
+        "sportCode": "FOOT",
+        "order": 1,
+        "leaf": true,
+        "current": true
+      },
+      {
+        "id": "1",
+        "link": "/football",
+        "description": "Football",
+        "type": "SPORT",
+        "sportCode": "FOOT",
+        "order": 6,
+        "leaf": false,
+        "current": false
+      }
+    ],
+    "events": [
+      {
+        "id": "10295069",
+        "description": "Carolina Panthers @ New York Giants",
+        "type": "GAMEEVENT",
+        "link": "/football/nfl/carolina-panthers-new-york-giants-202209181300",
+        "status": "U",
+        "sport": "FOOT",
+        "startTime": 1663520400000,
+        "live": false,
+        "awayTeamFirst": true,
+        "denySameGame": "NO",
+        "teaserAllowed": true,
+        "competitionId": "241",
+        "notes": "",
+        "numMarkets": 195,
+        "lastModified": 1663351198900,
+        "competitors": [
+          {
+            "id": "10295069-11904218",
+            "name": "New York Giants",
+            "home": true
+          },
+          {
+            "id": "10295069-11904216",
+            "name": "Carolina Panthers",
+            "home": false
+          }
+        ],
+        "displayGroups": [
+          {
+            "id": "100-41",
+            "description": "Game Lines",
+            "defaultType": true,
+            "alternateType": false,
+            "markets": [
+              {
+                "id": "199484914",
+                "descriptionKey": "Main Dynamic Asian Handicap",
+                "description": "Point Spread",
+                "key": "2W-HCAP",
+                "marketTypeId": "120718",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1073783685",
+                    "description": "Carolina Panthers",
+                    "status": "O",
+                    "type": "A",
+                    "competitorId": "10295069-11904216",
+                    "price": {
+                      "id": "11420605439",
+                      "handicap": "2.0",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  },
+                  {
+                    "id": "1073783686",
+                    "description": "New York Giants",
+                    "status": "O",
+                    "type": "H",
+                    "competitorId": "10295069-11904218",
+                    "price": {
+                      "id": "11420605440",
+                      "handicap": "-2.0",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "199484901",
+                "descriptionKey": "Moneyline",
+                "description": "Moneyline",
+                "key": "2W-12",
+                "marketTypeId": "11",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1073783513",
+                    "description": "Carolina Panthers",
+                    "status": "O",
+                    "type": "A",
+                    "competitorId": "10295069-11904216",
+                    "price": {
+                      "id": "11416389915",
+                      "american": "+110",
+                      "decimal": "2.100",
+                      "fractional": "11/10",
+                      "malay": "-0.91",
+                      "indonesian": "1.10",
+                      "hongkong": "1.10"
+                    }
+                  },
+                  {
+                    "id": "1073783514",
+                    "description": "New York Giants",
+                    "status": "O",
+                    "type": "H",
+                    "competitorId": "10295069-11904218",
+                    "price": {
+                      "id": "11416389916",
+                      "american": "-130",
+                      "decimal": "1.769230",
+                      "fractional": "10/13",
+                      "malay": "0.77",
+                      "indonesian": "-1.30",
+                      "hongkong": "0.77"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "199484941",
+                "descriptionKey": "Main Dynamic Over/Under",
+                "description": "Total",
+                "key": "2W-OU",
+                "marketTypeId": "120717",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1073783671",
+                    "description": "Over",
+                    "status": "O",
+                    "type": "O",
+                    "price": {
+                      "id": "11418234175",
+                      "handicap": "43.5",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  },
+                  {
+                    "id": "1073783672",
+                    "description": "Under",
+                    "status": "O",
+                    "type": "U",
+                    "price": {
+                      "id": "11418234176",
+                      "handicap": "43.5",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  }
+                ]
+              }
+            ],
+            "order": 1
+          }
+        ]
+      },
+      {
+        "id": "10295059",
+        "description": "Indianapolis Colts @ Jacksonville Jaguars",
+        "type": "GAMEEVENT",
+        "link": "/football/nfl/indianapolis-colts-jacksonville-jaguars-202209181300",
+        "status": "U",
+        "sport": "FOOT",
+        "startTime": 1663520400000,
+        "live": false,
+        "awayTeamFirst": true,
+        "denySameGame": "NO",
+        "teaserAllowed": true,
+        "competitionId": "241",
+        "notes": "",
+        "numMarkets": 201,
+        "lastModified": 1663351479756,
+        "competitors": [
+          {
+            "id": "10295059-11904220",
+            "name": "Jacksonville Jaguars",
+            "home": true
+          },
+          {
+            "id": "10295059-11904232",
+            "name": "Indianapolis Colts",
+            "home": false
+          }
+        ],
+        "displayGroups": [
+          {
+            "id": "100-41",
+            "description": "Game Lines",
+            "defaultType": true,
+            "alternateType": false,
+            "markets": [
+              {
+                "id": "199484727",
+                "descriptionKey": "Main Dynamic Asian Handicap",
+                "description": "Point Spread",
+                "key": "2W-HCAP",
+                "marketTypeId": "120718",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1073782435",
+                    "description": "Indianapolis Colts",
+                    "status": "O",
+                    "type": "A",
+                    "competitorId": "10295059-11904232",
+                    "price": {
+                      "id": "11433050356",
+                      "handicap": "-3.0",
+                      "american": "-120",
+                      "decimal": "1.833333",
+                      "fractional": "5/6",
+                      "malay": "0.83",
+                      "indonesian": "-1.20",
+                      "hongkong": "0.83"
+                    }
+                  },
+                  {
+                    "id": "1073782436",
+                    "description": "Jacksonville Jaguars",
+                    "status": "O",
+                    "type": "H",
+                    "competitorId": "10295059-11904220",
+                    "price": {
+                      "id": "11433050357",
+                      "handicap": "3.0",
+                      "american": "EVEN",
+                      "decimal": "2.00",
+                      "fractional": "1/1",
+                      "malay": "1.00",
+                      "indonesian": "1.00",
+                      "hongkong": "1.00"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "199484725",
+                "descriptionKey": "Moneyline",
+                "description": "Moneyline",
+                "key": "2W-12",
+                "marketTypeId": "11",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1073782431",
+                    "description": "Indianapolis Colts",
+                    "status": "O",
+                    "type": "A",
+                    "competitorId": "10295059-11904232",
+                    "price": {
+                      "id": "11432974841",
+                      "american": "-175",
+                      "decimal": "1.571429",
+                      "fractional": "4/7",
+                      "malay": "0.57",
+                      "indonesian": "-1.75",
+                      "hongkong": "0.57"
+                    }
+                  },
+                  {
+                    "id": "1073782432",
+                    "description": "Jacksonville Jaguars",
+                    "status": "O",
+                    "type": "H",
+                    "competitorId": "10295059-11904220",
+                    "price": {
+                      "id": "11432974840",
+                      "american": "+150",
+                      "decimal": "2.500",
+                      "fractional": "6/4",
+                      "malay": "-0.67",
+                      "indonesian": "1.50",
+                      "hongkong": "1.50"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "199484726",
+                "descriptionKey": "Main Dynamic Over/Under",
+                "description": "Total",
+                "key": "2W-OU",
+                "marketTypeId": "120717",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1073782433",
+                    "description": "Over",
+                    "status": "O",
+                    "type": "O",
+                    "price": {
+                      "id": "11420601080",
+                      "handicap": "45.5",
+                      "american": "-105",
+                      "decimal": "1.952381",
+                      "fractional": "20/21",
+                      "malay": "0.95",
+                      "indonesian": "-1.05",
+                      "hongkong": "0.95"
+                    }
+                  },
+                  {
+                    "id": "1073782434",
+                    "description": "Under",
+                    "status": "O",
+                    "type": "U",
+                    "price": {
+                      "id": "11420601081",
+                      "handicap": "45.5",
+                      "american": "-115",
+                      "decimal": "1.870",
+                      "fractional": "20/23",
+                      "malay": "0.87",
+                      "indonesian": "-1.15",
+                      "hongkong": "0.87"
+                    }
+                  }
+                ]
+              }
+            ],
+            "order": 1
+          }
+        ]
+      },
+      {
+        "id": "10295047",
+        "description": "Miami Dolphins @ Baltimore Ravens",
+        "type": "GAMEEVENT",
+        "link": "/football/nfl/miami-dolphins-baltimore-ravens-202209181300",
+        "status": "U",
+        "sport": "FOOT",
+        "startTime": 1663520400000,
+        "live": false,
+        "awayTeamFirst": true,
+        "denySameGame": "NO",
+        "teaserAllowed": true,
+        "competitionId": "241",
+        "notes": "",
+        "numMarkets": 175,
+        "lastModified": 1663351131797,
+        "competitors": [
+          {
+            "id": "10295047-11903831",
+            "name": "Baltimore Ravens",
+            "home": true
+          },
+          {
+            "id": "10295047-11904224",
+            "name": "Miami Dolphins",
+            "home": false
+          }
+        ],
+        "displayGroups": [
+          {
+            "id": "100-41",
+            "description": "Game Lines",
+            "defaultType": true,
+            "alternateType": false,
+            "markets": [
+              {
+                "id": "199484487",
+                "descriptionKey": "Main Dynamic Asian Handicap",
+                "description": "Point Spread",
+                "key": "2W-HCAP",
+                "marketTypeId": "120718",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1073781181",
+                    "description": "Miami Dolphins",
+                    "status": "O",
+                    "type": "A",
+                    "competitorId": "10295047-11904224",
+                    "price": {
+                      "id": "11423798820",
+                      "handicap": "3.5",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  },
+                  {
+                    "id": "1073781182",
+                    "description": "Baltimore Ravens",
+                    "status": "O",
+                    "type": "H",
+                    "competitorId": "10295047-11903831",
+                    "price": {
+                      "id": "11423798821",
+                      "handicap": "-3.5",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "199484455",
+                "descriptionKey": "Moneyline",
+                "description": "Moneyline",
+                "key": "2W-12",
+                "marketTypeId": "11",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1073781009",
+                    "description": "Miami Dolphins",
+                    "status": "O",
+                    "type": "A",
+                    "competitorId": "10295047-11904224",
+                    "price": {
+                      "id": "11420892718",
+                      "american": "+155",
+                      "decimal": "2.550",
+                      "fractional": "31/20",
+                      "malay": "-0.65",
+                      "indonesian": "1.55",
+                      "hongkong": "1.55"
+                    }
+                  },
+                  {
+                    "id": "1073781010",
+                    "description": "Baltimore Ravens",
+                    "status": "O",
+                    "type": "H",
+                    "competitorId": "10295047-11903831",
+                    "price": {
+                      "id": "11420892719",
+                      "american": "-180",
+                      "decimal": "1.555556",
+                      "fractional": "5/9",
+                      "malay": "0.56",
+                      "indonesian": "-1.80",
+                      "hongkong": "0.56"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "199484464",
+                "descriptionKey": "Main Dynamic Over/Under",
+                "description": "Total",
+                "key": "2W-OU",
+                "marketTypeId": "120717",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1073781167",
+                    "description": "Over",
+                    "status": "O",
+                    "type": "O",
+                    "price": {
+                      "id": "11409042509",
+                      "handicap": "44.5",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  },
+                  {
+                    "id": "1073781168",
+                    "description": "Under",
+                    "status": "O",
+                    "type": "U",
+                    "price": {
+                      "id": "11409042508",
+                      "handicap": "44.5",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  }
+                ]
+              }
+            ],
+            "order": 1
+          }
+        ]
+      },
+      {
+        "id": "10295073",
+        "description": "New England Patriots @ Pittsburgh Steelers",
+        "type": "GAMEEVENT",
+        "link": "/football/nfl/new-england-patriots-pittsburgh-steelers-202209181300",
+        "status": "U",
+        "sport": "FOOT",
+        "startTime": 1663520400000,
+        "live": false,
+        "awayTeamFirst": true,
+        "denySameGame": "NO",
+        "teaserAllowed": true,
+        "competitionId": "241",
+        "notes": "",
+        "numMarkets": 173,
+        "lastModified": 1663351131495,
+        "competitors": [
+          {
+            "id": "10295073-11904223",
+            "name": "Pittsburgh Steelers",
+            "home": true
+          },
+          {
+            "id": "10295073-11852810",
+            "name": "New England Patriots",
+            "home": false
+          }
+        ],
+        "displayGroups": [
+          {
+            "id": "100-41",
+            "description": "Game Lines",
+            "defaultType": true,
+            "alternateType": false,
+            "markets": [
+              {
+                "id": "199485077",
+                "descriptionKey": "Main Dynamic Asian Handicap",
+                "description": "Point Spread",
+                "key": "2W-HCAP",
+                "marketTypeId": "120718",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1073784426",
+                    "description": "New England Patriots",
+                    "status": "O",
+                    "type": "A",
+                    "competitorId": "10295073-11852810",
+                    "price": {
+                      "id": "11420607985",
+                      "handicap": "-2.0",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  },
+                  {
+                    "id": "1073784427",
+                    "description": "Pittsburgh Steelers",
+                    "status": "O",
+                    "type": "H",
+                    "competitorId": "10295073-11904223",
+                    "price": {
+                      "id": "11420607986",
+                      "handicap": "2.0",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "199485061",
+                "descriptionKey": "Moneyline",
+                "description": "Moneyline",
+                "key": "2W-12",
+                "marketTypeId": "11",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1073784254",
+                    "description": "New England Patriots",
+                    "status": "O",
+                    "type": "A",
+                    "competitorId": "10295073-11852810",
+                    "price": {
+                      "id": "11423811028",
+                      "american": "-130",
+                      "decimal": "1.769230",
+                      "fractional": "10/13",
+                      "malay": "0.77",
+                      "indonesian": "-1.30",
+                      "hongkong": "0.77"
+                    }
+                  },
+                  {
+                    "id": "1073784255",
+                    "description": "Pittsburgh Steelers",
+                    "status": "O",
+                    "type": "H",
+                    "competitorId": "10295073-11904223",
+                    "price": {
+                      "id": "11423811029",
+                      "american": "+110",
+                      "decimal": "2.100",
+                      "fractional": "11/10",
+                      "malay": "-0.91",
+                      "indonesian": "1.10",
+                      "hongkong": "1.10"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "199485122",
+                "descriptionKey": "Main Dynamic Over/Under",
+                "description": "Total",
+                "key": "2W-OU",
+                "marketTypeId": "120717",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1073784412",
+                    "description": "Over",
+                    "status": "O",
+                    "type": "O",
+                    "price": {
+                      "id": "11425036585",
+                      "handicap": "40.5",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  },
+                  {
+                    "id": "1073784413",
+                    "description": "Under",
+                    "status": "O",
+                    "type": "U",
+                    "price": {
+                      "id": "11425036586",
+                      "handicap": "40.5",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  }
+                ]
+              }
+            ],
+            "order": 1
+          }
+        ]
+      },
+      {
+        "id": "10295053",
+        "description": "New York Jets @ Cleveland Browns",
+        "type": "GAMEEVENT",
+        "link": "/football/nfl/new-york-jets-cleveland-browns-202209181300",
+        "status": "U",
+        "sport": "FOOT",
+        "startTime": 1663520400000,
+        "live": false,
+        "awayTeamFirst": true,
+        "denySameGame": "NO",
+        "teaserAllowed": true,
+        "competitionId": "241",
+        "notes": "",
+        "numMarkets": 188,
+        "lastModified": 1663351223656,
+        "competitors": [
+          {
+            "id": "10295053-11904219",
+            "name": "Cleveland Browns",
+            "home": true
+          },
+          {
+            "id": "10295053-11904241",
+            "name": "New York Jets",
+            "home": false
+          }
+        ],
+        "displayGroups": [
+          {
+            "id": "100-41",
+            "description": "Game Lines",
+            "defaultType": true,
+            "alternateType": false,
+            "markets": [
+              {
+                "id": "199484607",
+                "descriptionKey": "Main Dynamic Asian Handicap",
+                "description": "Point Spread",
+                "key": "2W-HCAP",
+                "marketTypeId": "120718",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1073781660",
+                    "description": "New York Jets",
+                    "status": "O",
+                    "type": "A",
+                    "competitorId": "10295053-11904241",
+                    "price": {
+                      "id": "11424177295",
+                      "handicap": "6.5",
+                      "american": "-105",
+                      "decimal": "1.952381",
+                      "fractional": "20/21",
+                      "malay": "0.95",
+                      "indonesian": "-1.05",
+                      "hongkong": "0.95"
+                    }
+                  },
+                  {
+                    "id": "1073781661",
+                    "description": "Cleveland Browns",
+                    "status": "O",
+                    "type": "H",
+                    "competitorId": "10295053-11904219",
+                    "price": {
+                      "id": "11424177296",
+                      "handicap": "-6.5",
+                      "american": "-115",
+                      "decimal": "1.870",
+                      "fractional": "20/23",
+                      "malay": "0.87",
+                      "indonesian": "-1.15",
+                      "hongkong": "0.87"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "199484570",
+                "descriptionKey": "Moneyline",
+                "description": "Moneyline",
+                "key": "2W-12",
+                "marketTypeId": "11",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1073781488",
+                    "description": "New York Jets",
+                    "status": "O",
+                    "type": "A",
+                    "competitorId": "10295053-11904241",
+                    "price": {
+                      "id": "11420864554",
+                      "american": "+230",
+                      "decimal": "3.300",
+                      "fractional": "23/10",
+                      "malay": "-0.43",
+                      "indonesian": "2.30",
+                      "hongkong": "2.30"
+                    }
+                  },
+                  {
+                    "id": "1073781489",
+                    "description": "Cleveland Browns",
+                    "status": "O",
+                    "type": "H",
+                    "competitorId": "10295053-11904219",
+                    "price": {
+                      "id": "11420864555",
+                      "american": "-280",
+                      "decimal": "1.357143",
+                      "fractional": "5/14",
+                      "malay": "0.36",
+                      "indonesian": "-2.80",
+                      "hongkong": "0.36"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "199484606",
+                "descriptionKey": "Main Dynamic Over/Under",
+                "description": "Total",
+                "key": "2W-OU",
+                "marketTypeId": "120717",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1073781646",
+                    "description": "Over",
+                    "status": "O",
+                    "type": "O",
+                    "price": {
+                      "id": "11425023595",
+                      "handicap": "39.5",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  },
+                  {
+                    "id": "1073781647",
+                    "description": "Under",
+                    "status": "O",
+                    "type": "U",
+                    "price": {
+                      "id": "11425023596",
+                      "handicap": "39.5",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  }
+                ]
+              }
+            ],
+            "order": 1
+          }
+        ]
+      },
+      {
+        "id": "10295065",
+        "description": "Tampa Bay Buccaneers @ New Orleans Saints",
+        "type": "GAMEEVENT",
+        "link": "/football/nfl/tampa-bay-buccaneers-new-orleans-saints-202209181300",
+        "status": "U",
+        "sport": "FOOT",
+        "startTime": 1663520400000,
+        "live": false,
+        "awayTeamFirst": true,
+        "denySameGame": "NO",
+        "teaserAllowed": true,
+        "competitionId": "241",
+        "notes": "",
+        "numMarkets": 147,
+        "lastModified": 1663351130711,
+        "competitors": [
+          {
+            "id": "10295065-11904221",
+            "name": "New Orleans Saints",
+            "home": true
+          },
+          {
+            "id": "10295065-11904225",
+            "name": "Tampa Bay Buccaneers",
+            "home": false
+          }
+        ],
+        "displayGroups": [
+          {
+            "id": "100-41",
+            "description": "Game Lines",
+            "defaultType": true,
+            "alternateType": false,
+            "markets": [
+              {
+                "id": "199484820",
+                "descriptionKey": "Main Dynamic Asian Handicap",
+                "description": "Point Spread",
+                "key": "2W-HCAP",
+                "marketTypeId": "120718",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1073783237",
+                    "description": "Tampa Bay Buccaneers",
+                    "status": "O",
+                    "type": "A",
+                    "competitorId": "10295065-11904225",
+                    "price": {
+                      "id": "11423801188",
+                      "handicap": "-2.5",
+                      "american": "-115",
+                      "decimal": "1.870",
+                      "fractional": "20/23",
+                      "malay": "0.87",
+                      "indonesian": "-1.15",
+                      "hongkong": "0.87"
+                    }
+                  },
+                  {
+                    "id": "1073783238",
+                    "description": "New Orleans Saints",
+                    "status": "O",
+                    "type": "H",
+                    "competitorId": "10295065-11904221",
+                    "price": {
+                      "id": "11423801189",
+                      "handicap": "2.5",
+                      "american": "-105",
+                      "decimal": "1.952381",
+                      "fractional": "20/21",
+                      "malay": "0.95",
+                      "indonesian": "-1.05",
+                      "hongkong": "0.95"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "199484803",
+                "descriptionKey": "Moneyline",
+                "description": "Moneyline",
+                "key": "2W-12",
+                "marketTypeId": "11",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1073783065",
+                    "description": "Tampa Bay Buccaneers",
+                    "status": "O",
+                    "type": "A",
+                    "competitorId": "10295065-11904225",
+                    "price": {
+                      "id": "11420114044",
+                      "american": "-145",
+                      "decimal": "1.690",
+                      "fractional": "20/29",
+                      "malay": "0.69",
+                      "indonesian": "-1.45",
+                      "hongkong": "0.69"
+                    }
+                  },
+                  {
+                    "id": "1073783066",
+                    "description": "New Orleans Saints",
+                    "status": "O",
+                    "type": "H",
+                    "competitorId": "10295065-11904221",
+                    "price": {
+                      "id": "11420114045",
+                      "american": "+125",
+                      "decimal": "2.250",
+                      "fractional": "5/4",
+                      "malay": "-0.80",
+                      "indonesian": "1.25",
+                      "hongkong": "1.25"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "199484865",
+                "descriptionKey": "Main Dynamic Over/Under",
+                "description": "Total",
+                "key": "2W-OU",
+                "marketTypeId": "120717",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1073783223",
+                    "description": "Over",
+                    "status": "O",
+                    "type": "O",
+                    "price": {
+                      "id": "11431504319",
+                      "handicap": "44.5",
+                      "american": "-105",
+                      "decimal": "1.952381",
+                      "fractional": "20/21",
+                      "malay": "0.95",
+                      "indonesian": "-1.05",
+                      "hongkong": "0.95"
+                    }
+                  },
+                  {
+                    "id": "1073783224",
+                    "description": "Under",
+                    "status": "O",
+                    "type": "U",
+                    "price": {
+                      "id": "11431504320",
+                      "handicap": "44.5",
+                      "american": "-115",
+                      "decimal": "1.870",
+                      "fractional": "20/23",
+                      "malay": "0.87",
+                      "indonesian": "-1.15",
+                      "hongkong": "0.87"
+                    }
+                  }
+                ]
+              }
+            ],
+            "order": 1
+          }
+        ]
+      },
+      {
+        "id": "10295056",
+        "description": "Washington Commanders @ Detroit Lions",
+        "type": "GAMEEVENT",
+        "link": "/football/nfl/washington-commanders-detroit-lions-202209181300",
+        "status": "U",
+        "sport": "FOOT",
+        "startTime": 1663520400000,
+        "live": false,
+        "awayTeamFirst": true,
+        "denySameGame": "NO",
+        "teaserAllowed": true,
+        "competitionId": "241",
+        "notes": "",
+        "numMarkets": 173,
+        "lastModified": 1663351130871,
+        "competitors": [
+          {
+            "id": "10295056-11904244",
+            "name": "Detroit Lions",
+            "home": true
+          },
+          {
+            "id": "10295056-16421961",
+            "name": "Washington Commanders",
+            "home": false
+          }
+        ],
+        "displayGroups": [
+          {
+            "id": "100-41",
+            "description": "Game Lines",
+            "defaultType": true,
+            "alternateType": false,
+            "markets": [
+              {
+                "id": "199484685",
+                "descriptionKey": "Main Dynamic Asian Handicap",
+                "description": "Point Spread",
+                "key": "2W-HCAP",
+                "marketTypeId": "120718",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1073782066",
+                    "description": "Washington Commanders",
+                    "status": "O",
+                    "type": "A",
+                    "competitorId": "10295056-16421961",
+                    "price": {
+                      "id": "11416588331",
+                      "handicap": "1.5",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  },
+                  {
+                    "id": "1073782067",
+                    "description": "Detroit Lions",
+                    "status": "O",
+                    "type": "H",
+                    "competitorId": "10295056-11904244",
+                    "price": {
+                      "id": "11416588332",
+                      "handicap": "-1.5",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "199484683",
+                "descriptionKey": "Moneyline",
+                "description": "Moneyline",
+                "key": "2W-12",
+                "marketTypeId": "11",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1073782062",
+                    "description": "Washington Commanders",
+                    "status": "O",
+                    "type": "A",
+                    "competitorId": "10295056-16421961",
+                    "price": {
+                      "id": "11426750142",
+                      "american": "+105",
+                      "decimal": "2.050",
+                      "fractional": "21/20",
+                      "malay": "-0.95",
+                      "indonesian": "1.05",
+                      "hongkong": "1.05"
+                    }
+                  },
+                  {
+                    "id": "1073782063",
+                    "description": "Detroit Lions",
+                    "status": "O",
+                    "type": "H",
+                    "competitorId": "10295056-11904244",
+                    "price": {
+                      "id": "11426750143",
+                      "american": "-125",
+                      "decimal": "1.800",
+                      "fractional": "4/5",
+                      "malay": "0.80",
+                      "indonesian": "-1.25",
+                      "hongkong": "0.80"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "199484684",
+                "descriptionKey": "Main Dynamic Over/Under",
+                "description": "Total",
+                "key": "2W-OU",
+                "marketTypeId": "120717",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1073782064",
+                    "description": "Over",
+                    "status": "O",
+                    "type": "O",
+                    "price": {
+                      "id": "11419386915",
+                      "handicap": "48.5",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  },
+                  {
+                    "id": "1073782065",
+                    "description": "Under",
+                    "status": "O",
+                    "type": "U",
+                    "price": {
+                      "id": "11419386916",
+                      "handicap": "48.5",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  }
+                ]
+              }
+            ],
+            "order": 1
+          }
+        ]
+      },
+      {
+        "id": "10295077",
+        "description": "Atlanta Falcons @ Los Angeles Rams",
+        "type": "GAMEEVENT",
+        "link": "/football/nfl/atlanta-falcons-los-angeles-rams-202209181605",
+        "status": "U",
+        "sport": "FOOT",
+        "startTime": 1663531500000,
+        "live": false,
+        "awayTeamFirst": true,
+        "denySameGame": "NO",
+        "teaserAllowed": true,
+        "competitionId": "241",
+        "notes": "",
+        "numMarkets": 180,
+        "lastModified": 1663351067347,
+        "competitors": [
+          {
+            "id": "10295077-11904226",
+            "name": "Los Angeles Rams",
+            "home": true
+          },
+          {
+            "id": "10295077-11904242",
+            "name": "Atlanta Falcons",
+            "home": false
+          }
+        ],
+        "displayGroups": [
+          {
+            "id": "100-41",
+            "description": "Game Lines",
+            "defaultType": true,
+            "alternateType": false,
+            "markets": [
+              {
+                "id": "199485271",
+                "descriptionKey": "Main Dynamic Asian Handicap",
+                "description": "Point Spread",
+                "key": "2W-HCAP",
+                "marketTypeId": "120718",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1073785023",
+                    "description": "Atlanta Falcons",
+                    "status": "O",
+                    "type": "A",
+                    "competitorId": "10295077-11904242",
+                    "price": {
+                      "id": "11430504584",
+                      "handicap": "10.0",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  },
+                  {
+                    "id": "1073785024",
+                    "description": "Los Angeles Rams",
+                    "status": "O",
+                    "type": "H",
+                    "competitorId": "10295077-11904226",
+                    "price": {
+                      "id": "11430504583",
+                      "handicap": "-10.0",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "199485217",
+                "descriptionKey": "Moneyline",
+                "description": "Moneyline",
+                "key": "2W-12",
+                "marketTypeId": "11",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1073784851",
+                    "description": "Atlanta Falcons",
+                    "status": "O",
+                    "type": "A",
+                    "competitorId": "10295077-11904242",
+                    "price": {
+                      "id": "11426672932",
+                      "american": "+390",
+                      "decimal": "4.900",
+                      "fractional": "39/10",
+                      "malay": "-0.26",
+                      "indonesian": "3.90",
+                      "hongkong": "3.90"
+                    }
+                  },
+                  {
+                    "id": "1073784852",
+                    "description": "Los Angeles Rams",
+                    "status": "O",
+                    "type": "H",
+                    "competitorId": "10295077-11904226",
+                    "price": {
+                      "id": "11426672933",
+                      "american": "-550",
+                      "decimal": "1.181818",
+                      "fractional": "2/11",
+                      "malay": "0.18",
+                      "indonesian": "-5.50",
+                      "hongkong": "0.18"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "199485246",
+                "descriptionKey": "Main Dynamic Over/Under",
+                "description": "Total",
+                "key": "2W-OU",
+                "marketTypeId": "120717",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1073785009",
+                    "description": "Over",
+                    "status": "O",
+                    "type": "O",
+                    "price": {
+                      "id": "11419520686",
+                      "handicap": "46.5",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  },
+                  {
+                    "id": "1073785010",
+                    "description": "Under",
+                    "status": "O",
+                    "type": "U",
+                    "price": {
+                      "id": "11419520687",
+                      "handicap": "46.5",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  }
+                ]
+              }
+            ],
+            "order": 1
+          }
+        ]
+      },
+      {
+        "id": "10295079",
+        "description": "Seattle Seahawks @ San Francisco 49ers",
+        "type": "GAMEEVENT",
+        "link": "/football/nfl/seattle-seahawks-san-francisco-49ers-202209181605",
+        "status": "U",
+        "sport": "FOOT",
+        "startTime": 1663531500000,
+        "live": false,
+        "awayTeamFirst": true,
+        "denySameGame": "NO",
+        "teaserAllowed": true,
+        "competitionId": "241",
+        "notes": "",
+        "numMarkets": 168,
+        "lastModified": 1663351578788,
+        "competitors": [
+          {
+            "id": "10295079-11904233",
+            "name": "San Francisco 49ers",
+            "home": true
+          },
+          {
+            "id": "10295079-11904231",
+            "name": "Seattle Seahawks",
+            "home": false
+          }
+        ],
+        "displayGroups": [
+          {
+            "id": "100-41",
+            "description": "Game Lines",
+            "defaultType": true,
+            "alternateType": false,
+            "markets": [
+              {
+                "id": "199485336",
+                "descriptionKey": "Main Dynamic Asian Handicap",
+                "description": "Point Spread",
+                "key": "2W-HCAP",
+                "marketTypeId": "120718",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1073785451",
+                    "description": "Seattle Seahawks",
+                    "status": "O",
+                    "type": "A",
+                    "competitorId": "10295079-11904231",
+                    "price": {
+                      "id": "11432774974",
+                      "handicap": "9.0",
+                      "american": "-115",
+                      "decimal": "1.870",
+                      "fractional": "20/23",
+                      "malay": "0.87",
+                      "indonesian": "-1.15",
+                      "hongkong": "0.87"
+                    }
+                  },
+                  {
+                    "id": "1073785452",
+                    "description": "San Francisco 49ers",
+                    "status": "O",
+                    "type": "H",
+                    "competitorId": "10295079-11904233",
+                    "price": {
+                      "id": "11432774975",
+                      "handicap": "-9.0",
+                      "american": "-105",
+                      "decimal": "1.952381",
+                      "fractional": "20/21",
+                      "malay": "0.95",
+                      "indonesian": "-1.05",
+                      "hongkong": "0.95"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "199485307",
+                "descriptionKey": "Moneyline",
+                "description": "Moneyline",
+                "key": "2W-12",
+                "marketTypeId": "11",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1073785279",
+                    "description": "Seattle Seahawks",
+                    "status": "O",
+                    "type": "A",
+                    "competitorId": "10295079-11904231",
+                    "price": {
+                      "id": "11431516870",
+                      "american": "+300",
+                      "decimal": "4.00",
+                      "fractional": "3/1",
+                      "malay": "-0.33",
+                      "indonesian": "3.00",
+                      "hongkong": "3.00"
+                    }
+                  },
+                  {
+                    "id": "1073785280",
+                    "description": "San Francisco 49ers",
+                    "status": "O",
+                    "type": "H",
+                    "competitorId": "10295079-11904233",
+                    "price": {
+                      "id": "11431516869",
+                      "american": "-400",
+                      "decimal": "1.250",
+                      "fractional": "1/4",
+                      "malay": "0.25",
+                      "indonesian": "-4.00",
+                      "hongkong": "0.25"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "199485329",
+                "descriptionKey": "Main Dynamic Over/Under",
+                "description": "Total",
+                "key": "2W-OU",
+                "marketTypeId": "120717",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1073785437",
+                    "description": "Over",
+                    "status": "O",
+                    "type": "O",
+                    "price": {
+                      "id": "11432731309",
+                      "handicap": "40.0",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  },
+                  {
+                    "id": "1073785438",
+                    "description": "Under",
+                    "status": "O",
+                    "type": "U",
+                    "price": {
+                      "id": "11432731310",
+                      "handicap": "40.0",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  }
+                ]
+              }
+            ],
+            "order": 1
+          }
+        ]
+      },
+      {
+        "id": "10295092",
+        "description": "Arizona Cardinals @ Las Vegas Raiders",
+        "type": "GAMEEVENT",
+        "link": "/football/nfl/arizona-cardinals-las-vegas-raiders-202209181625",
+        "status": "U",
+        "sport": "FOOT",
+        "startTime": 1663532700000,
+        "live": false,
+        "awayTeamFirst": true,
+        "denySameGame": "NO",
+        "teaserAllowed": true,
+        "competitionId": "241",
+        "notes": "",
+        "numMarkets": 165,
+        "lastModified": 1663351131223,
+        "competitors": [
+          {
+            "id": "10295092-11904243",
+            "name": "Las Vegas Raiders",
+            "home": true
+          },
+          {
+            "id": "10295092-11904247",
+            "name": "Arizona Cardinals",
+            "home": false
+          }
+        ],
+        "displayGroups": [
+          {
+            "id": "100-41",
+            "description": "Game Lines",
+            "defaultType": true,
+            "alternateType": false,
+            "markets": [
+              {
+                "id": "199485675",
+                "descriptionKey": "Main Dynamic Asian Handicap",
+                "description": "Point Spread",
+                "key": "2W-HCAP",
+                "marketTypeId": "120718",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1073787080",
+                    "description": "Arizona Cardinals",
+                    "status": "O",
+                    "type": "A",
+                    "competitorId": "10295092-11904247",
+                    "price": {
+                      "id": "11418275481",
+                      "handicap": "5.5",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  },
+                  {
+                    "id": "1073787081",
+                    "description": "Las Vegas Raiders",
+                    "status": "O",
+                    "type": "H",
+                    "competitorId": "10295092-11904243",
+                    "price": {
+                      "id": "11418275482",
+                      "handicap": "-5.5",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "199485674",
+                "descriptionKey": "Moneyline",
+                "description": "Moneyline",
+                "key": "2W-12",
+                "marketTypeId": "11",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1073786908",
+                    "description": "Arizona Cardinals",
+                    "status": "O",
+                    "type": "A",
+                    "competitorId": "10295092-11904247",
+                    "price": {
+                      "id": "11420620409",
+                      "american": "+190",
+                      "decimal": "2.900",
+                      "fractional": "19/10",
+                      "malay": "-0.53",
+                      "indonesian": "1.90",
+                      "hongkong": "1.90"
+                    }
+                  },
+                  {
+                    "id": "1073786909",
+                    "description": "Las Vegas Raiders",
+                    "status": "O",
+                    "type": "H",
+                    "competitorId": "10295092-11904243",
+                    "price": {
+                      "id": "11420620410",
+                      "american": "-230",
+                      "decimal": "1.434783",
+                      "fractional": "10/23",
+                      "malay": "0.43",
+                      "indonesian": "-2.30",
+                      "hongkong": "0.43"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "199485724",
+                "descriptionKey": "Main Dynamic Over/Under",
+                "description": "Total",
+                "key": "2W-OU",
+                "marketTypeId": "120717",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1073787066",
+                    "description": "Over",
+                    "status": "O",
+                    "type": "O",
+                    "price": {
+                      "id": "11418276036",
+                      "handicap": "51.5",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  },
+                  {
+                    "id": "1073787067",
+                    "description": "Under",
+                    "status": "O",
+                    "type": "U",
+                    "price": {
+                      "id": "11418276037",
+                      "handicap": "51.5",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  }
+                ]
+              }
+            ],
+            "order": 1
+          }
+        ]
+      },
+      {
+        "id": "10295081",
+        "description": "Cincinnati Bengals @ Dallas Cowboys",
+        "type": "GAMEEVENT",
+        "link": "/football/nfl/cincinnati-bengals-dallas-cowboys-202209181625",
+        "status": "U",
+        "sport": "FOOT",
+        "startTime": 1663532700000,
+        "live": false,
+        "awayTeamFirst": true,
+        "denySameGame": "NO",
+        "teaserAllowed": true,
+        "competitionId": "241",
+        "notes": "",
+        "numMarkets": 137,
+        "lastModified": 1663351602010,
+        "competitors": [
+          {
+            "id": "10295081-11904234",
+            "name": "Dallas Cowboys",
+            "home": true
+          },
+          {
+            "id": "10295081-11904217",
+            "name": "Cincinnati Bengals",
+            "home": false
+          }
+        ],
+        "displayGroups": [
+          {
+            "id": "100-41",
+            "description": "Game Lines",
+            "defaultType": true,
+            "alternateType": false,
+            "markets": [
+              {
+                "id": "199485484",
+                "descriptionKey": "Main Dynamic Asian Handicap",
+                "description": "Point Spread",
+                "key": "2W-HCAP",
+                "marketTypeId": "120718",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1073786094",
+                    "description": "Cincinnati Bengals",
+                    "status": "O",
+                    "type": "A",
+                    "competitorId": "10295081-11904217",
+                    "price": {
+                      "id": "11425887799",
+                      "handicap": "-7.5",
+                      "american": "-105",
+                      "decimal": "1.952381",
+                      "fractional": "20/21",
+                      "malay": "0.95",
+                      "indonesian": "-1.05",
+                      "hongkong": "0.95"
+                    }
+                  },
+                  {
+                    "id": "1073786095",
+                    "description": "Dallas Cowboys",
+                    "status": "O",
+                    "type": "H",
+                    "competitorId": "10295081-11904234",
+                    "price": {
+                      "id": "11425887800",
+                      "handicap": "7.5",
+                      "american": "-115",
+                      "decimal": "1.870",
+                      "fractional": "20/23",
+                      "malay": "0.87",
+                      "indonesian": "-1.15",
+                      "hongkong": "0.87"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "199485426",
+                "descriptionKey": "Moneyline",
+                "description": "Moneyline",
+                "key": "2W-12",
+                "marketTypeId": "11",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1073785922",
+                    "description": "Cincinnati Bengals",
+                    "status": "O",
+                    "type": "A",
+                    "competitorId": "10295081-11904217",
+                    "price": {
+                      "id": "11432366823",
+                      "american": "-350",
+                      "decimal": "1.285714",
+                      "fractional": "2/7",
+                      "malay": "0.29",
+                      "indonesian": "-3.50",
+                      "hongkong": "0.29"
+                    }
+                  },
+                  {
+                    "id": "1073785923",
+                    "description": "Dallas Cowboys",
+                    "status": "O",
+                    "type": "H",
+                    "competitorId": "10295081-11904234",
+                    "price": {
+                      "id": "11432366824",
+                      "american": "+275",
+                      "decimal": "3.750",
+                      "fractional": "11/4",
+                      "malay": "-0.36",
+                      "indonesian": "2.75",
+                      "hongkong": "2.75"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "199485483",
+                "descriptionKey": "Main Dynamic Over/Under",
+                "description": "Total",
+                "key": "2W-OU",
+                "marketTypeId": "120717",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1073786080",
+                    "description": "Over",
+                    "status": "O",
+                    "type": "O",
+                    "price": {
+                      "id": "11416298905",
+                      "handicap": "41.5",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  },
+                  {
+                    "id": "1073786081",
+                    "description": "Under",
+                    "status": "O",
+                    "type": "U",
+                    "price": {
+                      "id": "11416298906",
+                      "handicap": "41.5",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  }
+                ]
+              }
+            ],
+            "order": 1
+          }
+        ]
+      },
+      {
+        "id": "10295090",
+        "description": "Houston Texans @ Denver Broncos",
+        "type": "GAMEEVENT",
+        "link": "/football/nfl/houston-texans-denver-broncos-202209181625",
+        "status": "U",
+        "sport": "FOOT",
+        "startTime": 1663532700000,
+        "live": false,
+        "awayTeamFirst": true,
+        "denySameGame": "NO",
+        "teaserAllowed": true,
+        "competitionId": "241",
+        "notes": "",
+        "numMarkets": 178,
+        "lastModified": 1663351131013,
+        "competitors": [
+          {
+            "id": "10295090-11904245",
+            "name": "Denver Broncos",
+            "home": true
+          },
+          {
+            "id": "10295090-11904230",
+            "name": "Houston Texans",
+            "home": false
+          }
+        ],
+        "displayGroups": [
+          {
+            "id": "100-41",
+            "description": "Game Lines",
+            "defaultType": true,
+            "alternateType": false,
+            "markets": [
+              {
+                "id": "199485594",
+                "descriptionKey": "Main Dynamic Asian Handicap",
+                "description": "Point Spread",
+                "key": "2W-HCAP",
+                "marketTypeId": "120718",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1073786759",
+                    "description": "Houston Texans",
+                    "status": "O",
+                    "type": "A",
+                    "competitorId": "10295090-11904230",
+                    "price": {
+                      "id": "11420868027",
+                      "handicap": "10.0",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  },
+                  {
+                    "id": "1073786760",
+                    "description": "Denver Broncos",
+                    "status": "O",
+                    "type": "H",
+                    "competitorId": "10295090-11904245",
+                    "price": {
+                      "id": "11420868028",
+                      "handicap": "-10.0",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "199485590",
+                "descriptionKey": "Moneyline",
+                "description": "Moneyline",
+                "key": "2W-12",
+                "marketTypeId": "11",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1073786587",
+                    "description": "Houston Texans",
+                    "status": "O",
+                    "type": "A",
+                    "competitorId": "10295090-11904230",
+                    "price": {
+                      "id": "11407910246",
+                      "american": "+375",
+                      "decimal": "4.750",
+                      "fractional": "15/4",
+                      "malay": "-0.27",
+                      "indonesian": "3.75",
+                      "hongkong": "3.75"
+                    }
+                  },
+                  {
+                    "id": "1073786588",
+                    "description": "Denver Broncos",
+                    "status": "O",
+                    "type": "H",
+                    "competitorId": "10295090-11904245",
+                    "price": {
+                      "id": "11407910247",
+                      "american": "-525",
+                      "decimal": "1.190",
+                      "fractional": "4/21",
+                      "malay": "0.19",
+                      "indonesian": "-5.25",
+                      "hongkong": "0.19"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "199485635",
+                "descriptionKey": "Main Dynamic Over/Under",
+                "description": "Total",
+                "key": "2W-OU",
+                "marketTypeId": "120717",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1073786745",
+                    "description": "Over",
+                    "status": "O",
+                    "type": "O",
+                    "price": {
+                      "id": "11432561494",
+                      "handicap": "45.0",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  },
+                  {
+                    "id": "1073786746",
+                    "description": "Under",
+                    "status": "O",
+                    "type": "U",
+                    "price": {
+                      "id": "11432561495",
+                      "handicap": "45.0",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  }
+                ]
+              }
+            ],
+            "order": 1
+          }
+        ]
+      },
+      {
+        "id": "10295093",
+        "description": "Chicago Bears @ Green Bay Packers",
+        "type": "GAMEEVENT",
+        "link": "/football/nfl/chicago-bears-green-bay-packers-202209182020",
+        "status": "U",
+        "sport": "FOOT",
+        "startTime": 1663546800000,
+        "live": false,
+        "awayTeamFirst": true,
+        "denySameGame": "NO",
+        "teaserAllowed": true,
+        "competitionId": "241",
+        "notes": "",
+        "numMarkets": 160,
+        "lastModified": 1663351595776,
+        "competitors": [
+          {
+            "id": "10295093-11904228",
+            "name": "Green Bay Packers",
+            "home": true
+          },
+          {
+            "id": "10295093-11903832",
+            "name": "Chicago Bears",
+            "home": false
+          }
+        ],
+        "displayGroups": [
+          {
+            "id": "100-41",
+            "description": "Game Lines",
+            "defaultType": true,
+            "alternateType": false,
+            "markets": [
+              {
+                "id": "199485779",
+                "descriptionKey": "Main Dynamic Asian Handicap",
+                "description": "Point Spread",
+                "key": "2W-HCAP",
+                "marketTypeId": "120718",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1073787496",
+                    "description": "Chicago Bears",
+                    "status": "O",
+                    "type": "A",
+                    "competitorId": "10295093-11903832",
+                    "price": {
+                      "id": "11402644183",
+                      "handicap": "10.0",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  },
+                  {
+                    "id": "1073787497",
+                    "description": "Green Bay Packers",
+                    "status": "O",
+                    "type": "H",
+                    "competitorId": "10295093-11904228",
+                    "price": {
+                      "id": "11402644184",
+                      "handicap": "-10.0",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "199485758",
+                "descriptionKey": "Moneyline",
+                "description": "Moneyline",
+                "key": "2W-12",
+                "marketTypeId": "11",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1073787324",
+                    "description": "Chicago Bears",
+                    "status": "O",
+                    "type": "A",
+                    "competitorId": "10295093-11903832",
+                    "price": {
+                      "id": "11425734207",
+                      "american": "+375",
+                      "decimal": "4.750",
+                      "fractional": "15/4",
+                      "malay": "-0.27",
+                      "indonesian": "3.75",
+                      "hongkong": "3.75"
+                    }
+                  },
+                  {
+                    "id": "1073787325",
+                    "description": "Green Bay Packers",
+                    "status": "O",
+                    "type": "H",
+                    "competitorId": "10295093-11904228",
+                    "price": {
+                      "id": "11425734208",
+                      "american": "-525",
+                      "decimal": "1.190",
+                      "fractional": "4/21",
+                      "malay": "0.19",
+                      "indonesian": "-5.25",
+                      "hongkong": "0.19"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "199485794",
+                "descriptionKey": "Main Dynamic Over/Under",
+                "description": "Total",
+                "key": "2W-OU",
+                "marketTypeId": "120717",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1073787482",
+                    "description": "Over",
+                    "status": "O",
+                    "type": "O",
+                    "price": {
+                      "id": "11420869308",
+                      "handicap": "41.5",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  },
+                  {
+                    "id": "1073787483",
+                    "description": "Under",
+                    "status": "O",
+                    "type": "U",
+                    "price": {
+                      "id": "11420869309",
+                      "handicap": "41.5",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  }
+                ]
+              }
+            ],
+            "order": 1
+          }
+        ]
+      },
+      {
+        "id": "10295096",
+        "description": "Tennessee Titans @ Buffalo Bills",
+        "type": "GAMEEVENT",
+        "link": "/football/nfl/tennessee-titans-buffalo-bills-202209191915",
+        "status": "U",
+        "sport": "FOOT",
+        "startTime": 1663629300000,
+        "live": false,
+        "awayTeamFirst": true,
+        "denySameGame": "NO",
+        "teaserAllowed": true,
+        "competitionId": "241",
+        "notes": "",
+        "numMarkets": 139,
+        "lastModified": 1663351241254,
+        "competitors": [
+          {
+            "id": "10295096-11904215",
+            "name": "Buffalo Bills",
+            "home": true
+          },
+          {
+            "id": "10295096-11904229",
+            "name": "Tennessee Titans",
+            "home": false
+          }
+        ],
+        "displayGroups": [
+          {
+            "id": "100-41",
+            "description": "Game Lines",
+            "defaultType": true,
+            "alternateType": false,
+            "markets": [
+              {
+                "id": "199485919",
+                "descriptionKey": "Main Dynamic Asian Handicap",
+                "description": "Point Spread",
+                "key": "2W-HCAP",
+                "marketTypeId": "120718",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1073788082",
+                    "description": "Tennessee Titans",
+                    "status": "O",
+                    "type": "A",
+                    "competitorId": "10295096-11904229",
+                    "price": {
+                      "id": "11402379673",
+                      "handicap": "10.0",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  },
+                  {
+                    "id": "1073788083",
+                    "description": "Buffalo Bills",
+                    "status": "O",
+                    "type": "H",
+                    "competitorId": "10295096-11904215",
+                    "price": {
+                      "id": "11402379674",
+                      "handicap": "-10.0",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "199485877",
+                "descriptionKey": "Moneyline",
+                "description": "Moneyline",
+                "key": "2W-12",
+                "marketTypeId": "11",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1073787910",
+                    "description": "Tennessee Titans",
+                    "status": "O",
+                    "type": "A",
+                    "competitorId": "10295096-11904229",
+                    "price": {
+                      "id": "11406027831",
+                      "american": "+360",
+                      "decimal": "4.600",
+                      "fractional": "18/5",
+                      "malay": "-0.28",
+                      "indonesian": "3.60",
+                      "hongkong": "3.60"
+                    }
+                  },
+                  {
+                    "id": "1073787911",
+                    "description": "Buffalo Bills",
+                    "status": "O",
+                    "type": "H",
+                    "competitorId": "10295096-11904215",
+                    "price": {
+                      "id": "11406027832",
+                      "american": "-500",
+                      "decimal": "1.200",
+                      "fractional": "1/5",
+                      "malay": "0.20",
+                      "indonesian": "-5.00",
+                      "hongkong": "0.20"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "199485933",
+                "descriptionKey": "Main Dynamic Over/Under",
+                "description": "Total",
+                "key": "2W-OU",
+                "marketTypeId": "120717",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1073788068",
+                    "description": "Over",
+                    "status": "O",
+                    "type": "O",
+                    "price": {
+                      "id": "11419829321",
+                      "handicap": "48.0",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  },
+                  {
+                    "id": "1073788069",
+                    "description": "Under",
+                    "status": "O",
+                    "type": "U",
+                    "price": {
+                      "id": "11419829322",
+                      "handicap": "48.0",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  }
+                ]
+              }
+            ],
+            "order": 1
+          }
+        ]
+      },
+      {
+        "id": "10295099",
+        "description": "Minnesota Vikings @ Philadelphia Eagles",
+        "type": "GAMEEVENT",
+        "link": "/football/nfl/minnesota-vikings-philadelphia-eagles-202209192030",
+        "status": "U",
+        "sport": "FOOT",
+        "startTime": 1663633800000,
+        "live": false,
+        "awayTeamFirst": true,
+        "denySameGame": "NO",
+        "teaserAllowed": true,
+        "competitionId": "241",
+        "notes": "",
+        "numMarkets": 125,
+        "lastModified": 1663351320752,
+        "competitors": [
+          {
+            "id": "10295099-11904222",
+            "name": "Philadelphia Eagles",
+            "home": true
+          },
+          {
+            "id": "10295099-11904246",
+            "name": "Minnesota Vikings",
+            "home": false
+          }
+        ],
+        "displayGroups": [
+          {
+            "id": "100-41",
+            "description": "Game Lines",
+            "defaultType": true,
+            "alternateType": false,
+            "markets": [
+              {
+                "id": "199485988",
+                "descriptionKey": "Main Dynamic Asian Handicap",
+                "description": "Point Spread",
+                "key": "2W-HCAP",
+                "marketTypeId": "120718",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1073788541",
+                    "description": "Minnesota Vikings",
+                    "status": "O",
+                    "type": "A",
+                    "competitorId": "10295099-11904246",
+                    "price": {
+                      "id": "11432293119",
+                      "handicap": "2.0",
+                      "american": "-105",
+                      "decimal": "1.952381",
+                      "fractional": "20/21",
+                      "malay": "0.95",
+                      "indonesian": "-1.05",
+                      "hongkong": "0.95"
+                    }
+                  },
+                  {
+                    "id": "1073788542",
+                    "description": "Philadelphia Eagles",
+                    "status": "O",
+                    "type": "H",
+                    "competitorId": "10295099-11904222",
+                    "price": {
+                      "id": "11432293120",
+                      "handicap": "-2.0",
+                      "american": "-115",
+                      "decimal": "1.870",
+                      "fractional": "20/23",
+                      "malay": "0.87",
+                      "indonesian": "-1.15",
+                      "hongkong": "0.87"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "199485980",
+                "descriptionKey": "Moneyline",
+                "description": "Moneyline",
+                "key": "2W-12",
+                "marketTypeId": "11",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1073788369",
+                    "description": "Minnesota Vikings",
+                    "status": "O",
+                    "type": "A",
+                    "competitorId": "10295099-11904246",
+                    "price": {
+                      "id": "11418931807",
+                      "american": "+115",
+                      "decimal": "2.150",
+                      "fractional": "23/20",
+                      "malay": "-0.87",
+                      "indonesian": "1.15",
+                      "hongkong": "1.15"
+                    }
+                  },
+                  {
+                    "id": "1073788370",
+                    "description": "Philadelphia Eagles",
+                    "status": "O",
+                    "type": "H",
+                    "competitorId": "10295099-11904222",
+                    "price": {
+                      "id": "11418931808",
+                      "american": "-135",
+                      "decimal": "1.741",
+                      "fractional": "20/27",
+                      "malay": "0.74",
+                      "indonesian": "-1.35",
+                      "hongkong": "0.74"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "199486033",
+                "descriptionKey": "Main Dynamic Over/Under",
+                "description": "Total",
+                "key": "2W-OU",
+                "marketTypeId": "120717",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1073788527",
+                    "description": "Over",
+                    "status": "O",
+                    "type": "O",
+                    "price": {
+                      "id": "11412380391",
+                      "handicap": "50.5",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  },
+                  {
+                    "id": "1073788528",
+                    "description": "Under",
+                    "status": "O",
+                    "type": "U",
+                    "price": {
+                      "id": "11412380390",
+                      "handicap": "50.5",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  }
+                ]
+              }
+            ],
+            "order": 1
+          }
+        ]
+      },
+      {
+        "id": "10634888",
+        "description": "Pittsburgh Steelers @ Cleveland Browns",
+        "type": "GAMEEVENT",
+        "link": "/football/nfl/pittsburgh-steelers-cleveland-browns-202209222015",
+        "status": "O",
+        "sport": "FOOT",
+        "startTime": 1663892100000,
+        "live": false,
+        "awayTeamFirst": true,
+        "denySameGame": "NO",
+        "teaserAllowed": true,
+        "competitionId": "241",
+        "notes": "Week 3",
+        "numMarkets": 3,
+        "lastModified": 1663349510909,
+        "competitors": [
+          {
+            "id": "10634888-11904219",
+            "name": "Cleveland Browns",
+            "home": true
+          },
+          {
+            "id": "10634888-11904223",
+            "name": "Pittsburgh Steelers",
+            "home": false
+          }
+        ],
+        "displayGroups": [
+          {
+            "id": "100-41",
+            "description": "Game Lines",
+            "defaultType": true,
+            "alternateType": false,
+            "markets": [
+              {
+                "id": "208133242",
+                "descriptionKey": "Main Dynamic Asian Handicap",
+                "description": "Point Spread",
+                "key": "2W-HCAP",
+                "marketTypeId": "120718",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1119164267",
+                    "description": "Pittsburgh Steelers",
+                    "status": "O",
+                    "type": "A",
+                    "competitorId": "10634888-11904223",
+                    "price": {
+                      "id": "11427099339",
+                      "handicap": "3.5",
+                      "american": "-115",
+                      "decimal": "1.870",
+                      "fractional": "20/23",
+                      "malay": "0.87",
+                      "indonesian": "-1.15",
+                      "hongkong": "0.87"
+                    }
+                  },
+                  {
+                    "id": "1119164268",
+                    "description": "Cleveland Browns",
+                    "status": "O",
+                    "type": "H",
+                    "competitorId": "10634888-11904219",
+                    "price": {
+                      "id": "11427099338",
+                      "handicap": "-3.5",
+                      "american": "-105",
+                      "decimal": "1.952381",
+                      "fractional": "20/21",
+                      "malay": "0.95",
+                      "indonesian": "-1.05",
+                      "hongkong": "0.95"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "208133264",
+                "descriptionKey": "Head To Head",
+                "description": "Moneyline",
+                "key": "2W-12",
+                "marketTypeId": "11",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1119164243",
+                    "description": "Pittsburgh Steelers",
+                    "status": "O",
+                    "type": "A",
+                    "competitorId": "10634888-11904223",
+                    "price": {
+                      "id": "11419428330",
+                      "american": "+145",
+                      "decimal": "2.450",
+                      "fractional": "29/20",
+                      "malay": "-0.69",
+                      "indonesian": "1.45",
+                      "hongkong": "1.45"
+                    }
+                  },
+                  {
+                    "id": "1119164244",
+                    "description": "Cleveland Browns",
+                    "status": "O",
+                    "type": "H",
+                    "competitorId": "10634888-11904219",
+                    "price": {
+                      "id": "11419428329",
+                      "american": "-170",
+                      "decimal": "1.588235",
+                      "fractional": "10/17",
+                      "malay": "0.59",
+                      "indonesian": "-1.70",
+                      "hongkong": "0.59"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "208133248",
+                "descriptionKey": "Main Dynamic Over/Under",
+                "description": "Total",
+                "key": "2W-OU",
+                "marketTypeId": "120717",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1119164253",
+                    "description": "Over",
+                    "status": "O",
+                    "type": "O",
+                    "price": {
+                      "id": "11419428323",
+                      "handicap": "40.5",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  },
+                  {
+                    "id": "1119164254",
+                    "description": "Under",
+                    "status": "O",
+                    "type": "U",
+                    "price": {
+                      "id": "11419428324",
+                      "handicap": "40.5",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  }
+                ]
+              }
+            ],
+            "order": 1
+          }
+        ]
+      },
+      {
+        "id": "10786588",
+        "description": "Baltimore Ravens @ New England Patriots",
+        "type": "GAMEEVENT",
+        "link": "/football/nfl/baltimore-ravens-new-england-patriots-202209251300",
+        "status": "O",
+        "sport": "FOOT",
+        "startTime": 1664125200000,
+        "live": false,
+        "awayTeamFirst": true,
+        "denySameGame": "NO",
+        "teaserAllowed": true,
+        "competitionId": "241",
+        "notes": "Week 3",
+        "numMarkets": 3,
+        "lastModified": 1663349857006,
+        "competitors": [
+          {
+            "id": "10786588-11852810",
+            "name": "New England Patriots",
+            "home": true
+          },
+          {
+            "id": "10786588-11903831",
+            "name": "Baltimore Ravens",
+            "home": false
+          }
+        ],
+        "displayGroups": [
+          {
+            "id": "100-41",
+            "description": "Game Lines",
+            "defaultType": true,
+            "alternateType": false,
+            "markets": [
+              {
+                "id": "213355585",
+                "descriptionKey": "Main Dynamic Asian Handicap",
+                "description": "Point Spread",
+                "key": "2W-HCAP",
+                "marketTypeId": "120718",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1140162538",
+                    "description": "Baltimore Ravens",
+                    "status": "O",
+                    "type": "A",
+                    "competitorId": "10786588-11903831",
+                    "price": {
+                      "id": "11419433274",
+                      "handicap": "-3.0",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  },
+                  {
+                    "id": "1140162539",
+                    "description": "New England Patriots",
+                    "status": "O",
+                    "type": "H",
+                    "competitorId": "10786588-11852810",
+                    "price": {
+                      "id": "11419433273",
+                      "handicap": "3.0",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "213355584",
+                "descriptionKey": "Head To Head",
+                "description": "Moneyline",
+                "key": "2W-12",
+                "marketTypeId": "11",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1140162514",
+                    "description": "Baltimore Ravens",
+                    "status": "O",
+                    "type": "A",
+                    "competitorId": "10786588-11903831",
+                    "price": {
+                      "id": "11419433278",
+                      "american": "-160",
+                      "decimal": "1.625",
+                      "fractional": "5/8",
+                      "malay": "0.62",
+                      "indonesian": "-1.60",
+                      "hongkong": "0.62"
+                    }
+                  },
+                  {
+                    "id": "1140162515",
+                    "description": "New England Patriots",
+                    "status": "O",
+                    "type": "H",
+                    "competitorId": "10786588-11852810",
+                    "price": {
+                      "id": "11419433277",
+                      "american": "+135",
+                      "decimal": "2.350",
+                      "fractional": "27/20",
+                      "malay": "-0.74",
+                      "indonesian": "1.35",
+                      "hongkong": "1.35"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "213355589",
+                "descriptionKey": "Main Dynamic Over/Under",
+                "description": "Total",
+                "key": "2W-OU",
+                "marketTypeId": "120717",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1140162524",
+                    "description": "Over",
+                    "status": "O",
+                    "type": "O",
+                    "price": {
+                      "id": "11419433276",
+                      "handicap": "43.0",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  },
+                  {
+                    "id": "1140162525",
+                    "description": "Under",
+                    "status": "O",
+                    "type": "U",
+                    "price": {
+                      "id": "11419433275",
+                      "handicap": "43.0",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  }
+                ]
+              }
+            ],
+            "order": 1
+          }
+        ]
+      },
+      {
+        "id": "10786596",
+        "description": "Buffalo Bills @ Miami Dolphins",
+        "type": "GAMEEVENT",
+        "link": "/football/nfl/buffalo-bills-miami-dolphins-202209251300",
+        "status": "O",
+        "sport": "FOOT",
+        "startTime": 1664125200000,
+        "live": false,
+        "awayTeamFirst": true,
+        "denySameGame": "NO",
+        "teaserAllowed": true,
+        "competitionId": "241",
+        "notes": "Week 3",
+        "numMarkets": 3,
+        "lastModified": 1663349962906,
+        "competitors": [
+          {
+            "id": "10786596-11904224",
+            "name": "Miami Dolphins",
+            "home": true
+          },
+          {
+            "id": "10786596-11904215",
+            "name": "Buffalo Bills",
+            "home": false
+          }
+        ],
+        "displayGroups": [
+          {
+            "id": "100-41",
+            "description": "Game Lines",
+            "defaultType": true,
+            "alternateType": false,
+            "markets": [
+              {
+                "id": "213356074",
+                "descriptionKey": "Main Dynamic Asian Handicap",
+                "description": "Point Spread",
+                "key": "2W-HCAP",
+                "marketTypeId": "120718",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1140164841",
+                    "description": "Buffalo Bills",
+                    "status": "O",
+                    "type": "A",
+                    "competitorId": "10786596-11904215",
+                    "price": {
+                      "id": "11419435163",
+                      "handicap": "-4.5",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  },
+                  {
+                    "id": "1140164842",
+                    "description": "Miami Dolphins",
+                    "status": "O",
+                    "type": "H",
+                    "competitorId": "10786596-11904224",
+                    "price": {
+                      "id": "11419435164",
+                      "handicap": "4.5",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "213356123",
+                "descriptionKey": "Head To Head",
+                "description": "Moneyline",
+                "key": "2W-12",
+                "marketTypeId": "11",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1140164817",
+                    "description": "Buffalo Bills",
+                    "status": "O",
+                    "type": "A",
+                    "competitorId": "10786596-11904215",
+                    "price": {
+                      "id": "11419435167",
+                      "american": "-200",
+                      "decimal": "1.500",
+                      "fractional": "1/2",
+                      "malay": "0.50",
+                      "indonesian": "-2.00",
+                      "hongkong": "0.50"
+                    }
+                  },
+                  {
+                    "id": "1140164818",
+                    "description": "Miami Dolphins",
+                    "status": "O",
+                    "type": "H",
+                    "competitorId": "10786596-11904224",
+                    "price": {
+                      "id": "11419435168",
+                      "american": "+170",
+                      "decimal": "2.700",
+                      "fractional": "17/10",
+                      "malay": "-0.59",
+                      "indonesian": "1.70",
+                      "hongkong": "1.70"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "213356087",
+                "descriptionKey": "Main Dynamic Over/Under",
+                "description": "Total",
+                "key": "2W-OU",
+                "marketTypeId": "120717",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1140164827",
+                    "description": "Over",
+                    "status": "O",
+                    "type": "O",
+                    "price": {
+                      "id": "11420333773",
+                      "handicap": "50.0",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  },
+                  {
+                    "id": "1140164828",
+                    "description": "Under",
+                    "status": "O",
+                    "type": "U",
+                    "price": {
+                      "id": "11420333772",
+                      "handicap": "50.0",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  }
+                ]
+              }
+            ],
+            "order": 1
+          }
+        ]
+      },
+      {
+        "id": "10786589",
+        "description": "Cincinnati Bengals @ New York Jets",
+        "type": "GAMEEVENT",
+        "link": "/football/nfl/cincinnati-bengals-new-york-jets-202209251300",
+        "status": "O",
+        "sport": "FOOT",
+        "startTime": 1664125200000,
+        "live": false,
+        "awayTeamFirst": true,
+        "denySameGame": "NO",
+        "teaserAllowed": true,
+        "competitionId": "241",
+        "notes": "Week 3",
+        "numMarkets": 3,
+        "lastModified": 1663350151027,
+        "competitors": [
+          {
+            "id": "10786589-11904241",
+            "name": "New York Jets",
+            "home": true
+          },
+          {
+            "id": "10786589-11904217",
+            "name": "Cincinnati Bengals",
+            "home": false
+          }
+        ],
+        "displayGroups": [
+          {
+            "id": "100-41",
+            "description": "Game Lines",
+            "defaultType": true,
+            "alternateType": false,
+            "markets": [
+              {
+                "id": "213355684",
+                "descriptionKey": "Main Dynamic Asian Handicap",
+                "description": "Point Spread",
+                "key": "2W-HCAP",
+                "marketTypeId": "120718",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1140162830",
+                    "description": "Cincinnati Bengals",
+                    "status": "O",
+                    "type": "A",
+                    "competitorId": "10786589-11904217",
+                    "price": {
+                      "id": "11419437933",
+                      "handicap": "-6.0",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  },
+                  {
+                    "id": "1140162831",
+                    "description": "New York Jets",
+                    "status": "O",
+                    "type": "H",
+                    "competitorId": "10786589-11904241",
+                    "price": {
+                      "id": "11419437932",
+                      "handicap": "6.0",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "213355630",
+                "descriptionKey": "Head To Head",
+                "description": "Moneyline",
+                "key": "2W-12",
+                "marketTypeId": "11",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1140162806",
+                    "description": "Cincinnati Bengals",
+                    "status": "O",
+                    "type": "A",
+                    "competitorId": "10786589-11904217",
+                    "price": {
+                      "id": "11419437939",
+                      "american": "-250",
+                      "decimal": "1.400",
+                      "fractional": "2/5",
+                      "malay": "0.40",
+                      "indonesian": "-2.50",
+                      "hongkong": "0.40"
+                    }
+                  },
+                  {
+                    "id": "1140162807",
+                    "description": "New York Jets",
+                    "status": "O",
+                    "type": "H",
+                    "competitorId": "10786589-11904241",
+                    "price": {
+                      "id": "11419437938",
+                      "american": "+210",
+                      "decimal": "3.100",
+                      "fractional": "21/10",
+                      "malay": "-0.48",
+                      "indonesian": "2.10",
+                      "hongkong": "2.10"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "213355662",
+                "descriptionKey": "Main Dynamic Over/Under",
+                "description": "Total",
+                "key": "2W-OU",
+                "marketTypeId": "120717",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1140162816",
+                    "description": "Over",
+                    "status": "O",
+                    "type": "O",
+                    "price": {
+                      "id": "11419437937",
+                      "handicap": "43.0",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  },
+                  {
+                    "id": "1140162817",
+                    "description": "Under",
+                    "status": "O",
+                    "type": "U",
+                    "price": {
+                      "id": "11419437936",
+                      "handicap": "43.0",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  }
+                ]
+              }
+            ],
+            "order": 1
+          }
+        ]
+      },
+      {
+        "id": "10786585",
+        "description": "Detroit Lions @ Minnesota Vikings",
+        "type": "GAMEEVENT",
+        "link": "/football/nfl/detroit-lions-minnesota-vikings-202209251300",
+        "status": "O",
+        "sport": "FOOT",
+        "startTime": 1664125200000,
+        "live": false,
+        "awayTeamFirst": true,
+        "denySameGame": "NO",
+        "teaserAllowed": true,
+        "competitionId": "241",
+        "notes": "Week 3",
+        "numMarkets": 3,
+        "lastModified": 1663350404083,
+        "competitors": [
+          {
+            "id": "10786585-11904246",
+            "name": "Minnesota Vikings",
+            "home": true
+          },
+          {
+            "id": "10786585-11904244",
+            "name": "Detroit Lions",
+            "home": false
+          }
+        ],
+        "displayGroups": [
+          {
+            "id": "100-41",
+            "description": "Game Lines",
+            "defaultType": true,
+            "alternateType": false,
+            "markets": [
+              {
+                "id": "213355384",
+                "descriptionKey": "Main Dynamic Asian Handicap",
+                "description": "Point Spread",
+                "key": "2W-HCAP",
+                "marketTypeId": "120718",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1140161628",
+                    "description": "Detroit Lions",
+                    "status": "O",
+                    "type": "A",
+                    "competitorId": "10786585-11904244",
+                    "price": {
+                      "id": "11419443829",
+                      "handicap": "7.5",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  },
+                  {
+                    "id": "1140161629",
+                    "description": "Minnesota Vikings",
+                    "status": "O",
+                    "type": "H",
+                    "competitorId": "10786585-11904246",
+                    "price": {
+                      "id": "11419443828",
+                      "handicap": "-7.5",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "213355351",
+                "descriptionKey": "Head To Head",
+                "description": "Moneyline",
+                "key": "2W-12",
+                "marketTypeId": "11",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1140161604",
+                    "description": "Detroit Lions",
+                    "status": "O",
+                    "type": "A",
+                    "competitorId": "10786585-11904244",
+                    "price": {
+                      "id": "11419443833",
+                      "american": "+270",
+                      "decimal": "3.700",
+                      "fractional": "27/10",
+                      "malay": "-0.37",
+                      "indonesian": "2.70",
+                      "hongkong": "2.70"
+                    }
+                  },
+                  {
+                    "id": "1140161605",
+                    "description": "Minnesota Vikings",
+                    "status": "O",
+                    "type": "H",
+                    "competitorId": "10786585-11904246",
+                    "price": {
+                      "id": "11419443832",
+                      "american": "-340",
+                      "decimal": "1.294118",
+                      "fractional": "5/17",
+                      "malay": "0.29",
+                      "indonesian": "-3.40",
+                      "hongkong": "0.29"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "213355376",
+                "descriptionKey": "Main Dynamic Over/Under",
+                "description": "Total",
+                "key": "2W-OU",
+                "marketTypeId": "120717",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1140161614",
+                    "description": "Over",
+                    "status": "O",
+                    "type": "O",
+                    "price": {
+                      "id": "11428048859",
+                      "handicap": "50.5",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  },
+                  {
+                    "id": "1140161615",
+                    "description": "Under",
+                    "status": "O",
+                    "type": "U",
+                    "price": {
+                      "id": "11428048858",
+                      "handicap": "50.5",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  }
+                ]
+              }
+            ],
+            "order": 1
+          }
+        ]
+      },
+      {
+        "id": "10786583",
+        "description": "Houston Texans @ Chicago Bears",
+        "type": "GAMEEVENT",
+        "link": "/football/nfl/houston-texans-chicago-bears-202209251300",
+        "status": "O",
+        "sport": "FOOT",
+        "startTime": 1664125200000,
+        "live": false,
+        "awayTeamFirst": true,
+        "denySameGame": "NO",
+        "teaserAllowed": true,
+        "competitionId": "241",
+        "notes": "Week 3",
+        "numMarkets": 3,
+        "lastModified": 1663350841804,
+        "competitors": [
+          {
+            "id": "10786583-11903832",
+            "name": "Chicago Bears",
+            "home": true
+          },
+          {
+            "id": "10786583-11904230",
+            "name": "Houston Texans",
+            "home": false
+          }
+        ],
+        "displayGroups": [
+          {
+            "id": "100-41",
+            "description": "Game Lines",
+            "defaultType": true,
+            "alternateType": false,
+            "markets": [
+              {
+                "id": "213355208",
+                "descriptionKey": "Main Dynamic Asian Handicap",
+                "description": "Point Spread",
+                "key": "2W-HCAP",
+                "marketTypeId": "120718",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1140160948",
+                    "description": "Houston Texans",
+                    "status": "O",
+                    "type": "A",
+                    "competitorId": "10786583-11904230",
+                    "price": {
+                      "id": "11419451738",
+                      "handicap": "3.0",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  },
+                  {
+                    "id": "1140160949",
+                    "description": "Chicago Bears",
+                    "status": "O",
+                    "type": "H",
+                    "competitorId": "10786583-11903832",
+                    "price": {
+                      "id": "11419451737",
+                      "handicap": "-3.0",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "213355190",
+                "descriptionKey": "Head To Head",
+                "description": "Moneyline",
+                "key": "2W-12",
+                "marketTypeId": "11",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1140160924",
+                    "description": "Houston Texans",
+                    "status": "O",
+                    "type": "A",
+                    "competitorId": "10786583-11904230",
+                    "price": {
+                      "id": "11419451742",
+                      "american": "+135",
+                      "decimal": "2.350",
+                      "fractional": "27/20",
+                      "malay": "-0.74",
+                      "indonesian": "1.35",
+                      "hongkong": "1.35"
+                    }
+                  },
+                  {
+                    "id": "1140160925",
+                    "description": "Chicago Bears",
+                    "status": "O",
+                    "type": "H",
+                    "competitorId": "10786583-11903832",
+                    "price": {
+                      "id": "11419451741",
+                      "american": "-160",
+                      "decimal": "1.625",
+                      "fractional": "5/8",
+                      "malay": "0.62",
+                      "indonesian": "-1.60",
+                      "hongkong": "0.62"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "213355185",
+                "descriptionKey": "Main Dynamic Over/Under",
+                "description": "Total",
+                "key": "2W-OU",
+                "marketTypeId": "120717",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1140160934",
+                    "description": "Over",
+                    "status": "O",
+                    "type": "O",
+                    "price": {
+                      "id": "11419451740",
+                      "handicap": "39.0",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  },
+                  {
+                    "id": "1140160935",
+                    "description": "Under",
+                    "status": "O",
+                    "type": "U",
+                    "price": {
+                      "id": "11419451739",
+                      "handicap": "39.0",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  }
+                ]
+              }
+            ],
+            "order": 1
+          }
+        ]
+      },
+      {
+        "id": "10594216",
+        "description": "Las Vegas Raiders @ Tennessee Titans",
+        "type": "GAMEEVENT",
+        "link": "/football/nfl/las-vegas-raiders-tennessee-titans-202209251300",
+        "status": "O",
+        "sport": "FOOT",
+        "startTime": 1664125200000,
+        "live": false,
+        "awayTeamFirst": true,
+        "denySameGame": "NO",
+        "teaserAllowed": true,
+        "competitionId": "241",
+        "notes": "Week 3",
+        "numMarkets": 3,
+        "lastModified": 1663324781275,
+        "competitors": [
+          {
+            "id": "10594216-11904229",
+            "name": "Tennessee Titans",
+            "home": true
+          },
+          {
+            "id": "10594216-11904243",
+            "name": "Las Vegas Raiders",
+            "home": false
+          }
+        ],
+        "displayGroups": [
+          {
+            "id": "100-41",
+            "description": "Game Lines",
+            "defaultType": true,
+            "alternateType": false,
+            "markets": [
+              {
+                "id": "206926252",
+                "descriptionKey": "Main Dynamic Asian Handicap",
+                "description": "Point Spread",
+                "key": "2W-HCAP",
+                "marketTypeId": "120718",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1113812650",
+                    "description": "Las Vegas Raiders",
+                    "status": "O",
+                    "type": "A",
+                    "competitorId": "10594216-11904243",
+                    "price": {
+                      "id": "11419447170",
+                      "handicap": "0.0",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  },
+                  {
+                    "id": "1113812651",
+                    "description": "Tennessee Titans",
+                    "status": "O",
+                    "type": "H",
+                    "competitorId": "10594216-11904229",
+                    "price": {
+                      "id": "11419447169",
+                      "handicap": "0.0",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "206926281",
+                "descriptionKey": "Head To Head",
+                "description": "Moneyline",
+                "key": "2W-12",
+                "marketTypeId": "11",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1113812626",
+                    "description": "Las Vegas Raiders",
+                    "status": "O",
+                    "type": "A",
+                    "competitorId": "10594216-11904243",
+                    "price": {
+                      "id": "11419565294",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  },
+                  {
+                    "id": "1113812627",
+                    "description": "Tennessee Titans",
+                    "status": "O",
+                    "type": "H",
+                    "competitorId": "10594216-11904229",
+                    "price": {
+                      "id": "11419565293",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "206926270",
+                "descriptionKey": "Main Dynamic Over/Under",
+                "description": "Total",
+                "key": "2W-OU",
+                "marketTypeId": "120717",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1113812636",
+                    "description": "Over",
+                    "status": "O",
+                    "type": "O",
+                    "price": {
+                      "id": "11419447172",
+                      "handicap": "47.0",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  },
+                  {
+                    "id": "1113812637",
+                    "description": "Under",
+                    "status": "O",
+                    "type": "U",
+                    "price": {
+                      "id": "11419447171",
+                      "handicap": "47.0",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  }
+                ]
+              }
+            ],
+            "order": 1
+          }
+        ]
+      },
+      {
+        "id": "10554263",
+        "description": "New Orleans Saints @ Carolina Panthers",
+        "type": "GAMEEVENT",
+        "link": "/football/nfl/new-orleans-saints-carolina-panthers-202209251300",
+        "status": "O",
+        "sport": "FOOT",
+        "startTime": 1664125200000,
+        "live": false,
+        "awayTeamFirst": true,
+        "denySameGame": "NO",
+        "teaserAllowed": true,
+        "competitionId": "241",
+        "notes": "Week 3",
+        "numMarkets": 3,
+        "lastModified": 1663350299161,
+        "competitors": [
+          {
+            "id": "10554263-11904216",
+            "name": "Carolina Panthers",
+            "home": true
+          },
+          {
+            "id": "10554263-11904221",
+            "name": "New Orleans Saints",
+            "home": false
+          }
+        ],
+        "displayGroups": [
+          {
+            "id": "100-41",
+            "description": "Game Lines",
+            "defaultType": true,
+            "alternateType": false,
+            "markets": [
+              {
+                "id": "205954539",
+                "descriptionKey": "Main Dynamic Asian Handicap",
+                "description": "Point Spread",
+                "key": "2W-HCAP",
+                "marketTypeId": "120718",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1108565241",
+                    "description": "New Orleans Saints",
+                    "status": "O",
+                    "type": "A",
+                    "competitorId": "10554263-11904221",
+                    "price": {
+                      "id": "11419441829",
+                      "handicap": "-2.5",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  },
+                  {
+                    "id": "1108565242",
+                    "description": "Carolina Panthers",
+                    "status": "O",
+                    "type": "H",
+                    "competitorId": "10554263-11904216",
+                    "price": {
+                      "id": "11419441828",
+                      "handicap": "2.5",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "205954560",
+                "descriptionKey": "Head To Head",
+                "description": "Moneyline",
+                "key": "2W-12",
+                "marketTypeId": "11",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1108565217",
+                    "description": "New Orleans Saints",
+                    "status": "O",
+                    "type": "A",
+                    "competitorId": "10554263-11904221",
+                    "price": {
+                      "id": "11419441833",
+                      "american": "-140",
+                      "decimal": "1.714286",
+                      "fractional": "5/7",
+                      "malay": "0.71",
+                      "indonesian": "-1.40",
+                      "hongkong": "0.71"
+                    }
+                  },
+                  {
+                    "id": "1108565218",
+                    "description": "Carolina Panthers",
+                    "status": "O",
+                    "type": "H",
+                    "competitorId": "10554263-11904216",
+                    "price": {
+                      "id": "11419441832",
+                      "american": "+120",
+                      "decimal": "2.200",
+                      "fractional": "6/5",
+                      "malay": "-0.83",
+                      "indonesian": "1.20",
+                      "hongkong": "1.20"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "205954584",
+                "descriptionKey": "Main Dynamic Over/Under",
+                "description": "Total",
+                "key": "2W-OU",
+                "marketTypeId": "120717",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1108565227",
+                    "description": "Over",
+                    "status": "O",
+                    "type": "O",
+                    "price": {
+                      "id": "11419441830",
+                      "handicap": "42.5",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  },
+                  {
+                    "id": "1108565228",
+                    "description": "Under",
+                    "status": "O",
+                    "type": "U",
+                    "price": {
+                      "id": "11419441831",
+                      "handicap": "42.5",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  }
+                ]
+              }
+            ],
+            "order": 1
+          }
+        ]
+      },
+      {
+        "id": "10786586",
+        "description": "Philadelphia Eagles @ Washington Commanders",
+        "type": "GAMEEVENT",
+        "link": "/football/nfl/philadelphia-eagles-washington-commanders-202209251300",
+        "status": "O",
+        "sport": "FOOT",
+        "startTime": 1664125200000,
+        "live": false,
+        "awayTeamFirst": true,
+        "denySameGame": "NO",
+        "teaserAllowed": true,
+        "competitionId": "241",
+        "notes": "Week 3",
+        "numMarkets": 3,
+        "lastModified": 1663350801072,
+        "competitors": [
+          {
+            "id": "10786586-16421961",
+            "name": "Washington Commanders",
+            "home": true
+          },
+          {
+            "id": "10786586-11904222",
+            "name": "Philadelphia Eagles",
+            "home": false
+          }
+        ],
+        "displayGroups": [
+          {
+            "id": "100-41",
+            "description": "Game Lines",
+            "defaultType": true,
+            "alternateType": false,
+            "markets": [
+              {
+                "id": "213355507",
+                "descriptionKey": "Main Dynamic Asian Handicap",
+                "description": "Point Spread",
+                "key": "2W-HCAP",
+                "marketTypeId": "120718",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1140162229",
+                    "description": "Philadelphia Eagles",
+                    "status": "O",
+                    "type": "A",
+                    "competitorId": "10786586-11904222",
+                    "price": {
+                      "id": "11419449350",
+                      "handicap": "-3.0",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  },
+                  {
+                    "id": "1140162230",
+                    "description": "Washington Commanders",
+                    "status": "O",
+                    "type": "H",
+                    "competitorId": "10786586-16421961",
+                    "price": {
+                      "id": "11419449351",
+                      "handicap": "3.0",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "213355545",
+                "descriptionKey": "Head To Head",
+                "description": "Moneyline",
+                "key": "2W-12",
+                "marketTypeId": "11",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1140162205",
+                    "description": "Philadelphia Eagles",
+                    "status": "O",
+                    "type": "A",
+                    "competitorId": "10786586-11904222",
+                    "price": {
+                      "id": "11419449356",
+                      "american": "-165",
+                      "decimal": "1.606061",
+                      "fractional": "20/33",
+                      "malay": "0.61",
+                      "indonesian": "-1.65",
+                      "hongkong": "0.61"
+                    }
+                  },
+                  {
+                    "id": "1140162206",
+                    "description": "Washington Commanders",
+                    "status": "O",
+                    "type": "H",
+                    "competitorId": "10786586-16421961",
+                    "price": {
+                      "id": "11419449357",
+                      "american": "+140",
+                      "decimal": "2.400",
+                      "fractional": "7/5",
+                      "malay": "-0.71",
+                      "indonesian": "1.40",
+                      "hongkong": "1.40"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "213355529",
+                "descriptionKey": "Main Dynamic Over/Under",
+                "description": "Total",
+                "key": "2W-OU",
+                "marketTypeId": "120717",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1140162215",
+                    "description": "Over",
+                    "status": "O",
+                    "type": "O",
+                    "price": {
+                      "id": "11419449354",
+                      "handicap": "50.0",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  },
+                  {
+                    "id": "1140162216",
+                    "description": "Under",
+                    "status": "O",
+                    "type": "U",
+                    "price": {
+                      "id": "11419449355",
+                      "handicap": "50.0",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  }
+                ]
+              }
+            ],
+            "order": 1
+          }
+        ]
+      },
+      {
+        "id": "10554265",
+        "description": "Atlanta Falcons @ Seattle Seahawks",
+        "type": "GAMEEVENT",
+        "link": "/football/nfl/atlanta-falcons-seattle-seahawks-202209251625",
+        "status": "O",
+        "sport": "FOOT",
+        "startTime": 1664137500000,
+        "live": false,
+        "awayTeamFirst": true,
+        "denySameGame": "NO",
+        "teaserAllowed": true,
+        "competitionId": "241",
+        "notes": "Week 3",
+        "numMarkets": 3,
+        "lastModified": 1663324813838,
+        "competitors": [
+          {
+            "id": "10554265-11904231",
+            "name": "Seattle Seahawks",
+            "home": true
+          },
+          {
+            "id": "10554265-11904242",
+            "name": "Atlanta Falcons",
+            "home": false
+          }
+        ],
+        "displayGroups": [
+          {
+            "id": "100-41",
+            "description": "Game Lines",
+            "defaultType": true,
+            "alternateType": false,
+            "markets": [
+              {
+                "id": "205954667",
+                "descriptionKey": "Main Dynamic Asian Handicap",
+                "description": "Point Spread",
+                "key": "2W-HCAP",
+                "marketTypeId": "120718",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1108565779",
+                    "description": "Atlanta Falcons",
+                    "status": "O",
+                    "type": "A",
+                    "competitorId": "10554265-11904242",
+                    "price": {
+                      "id": "11427131765",
+                      "handicap": "3.0",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  },
+                  {
+                    "id": "1108565780",
+                    "description": "Seattle Seahawks",
+                    "status": "O",
+                    "type": "H",
+                    "competitorId": "10554265-11904231",
+                    "price": {
+                      "id": "11427131766",
+                      "handicap": "-3.0",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "205954701",
+                "descriptionKey": "Head To Head",
+                "description": "Moneyline",
+                "key": "2W-12",
+                "marketTypeId": "11",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1108565755",
+                    "description": "Atlanta Falcons",
+                    "status": "O",
+                    "type": "A",
+                    "competitorId": "10554265-11904242",
+                    "price": {
+                      "id": "11419467676",
+                      "american": "+145",
+                      "decimal": "2.450",
+                      "fractional": "29/20",
+                      "malay": "-0.69",
+                      "indonesian": "1.45",
+                      "hongkong": "1.45"
+                    }
+                  },
+                  {
+                    "id": "1108565756",
+                    "description": "Seattle Seahawks",
+                    "status": "O",
+                    "type": "H",
+                    "competitorId": "10554265-11904231",
+                    "price": {
+                      "id": "11419467677",
+                      "american": "-170",
+                      "decimal": "1.588235",
+                      "fractional": "10/17",
+                      "malay": "0.59",
+                      "indonesian": "-1.70",
+                      "hongkong": "0.59"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "205954707",
+                "descriptionKey": "Main Dynamic Over/Under",
+                "description": "Total",
+                "key": "2W-OU",
+                "marketTypeId": "120717",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1108565765",
+                    "description": "Over",
+                    "status": "O",
+                    "type": "O",
+                    "price": {
+                      "id": "11419467675",
+                      "handicap": "42.5",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  },
+                  {
+                    "id": "1108565766",
+                    "description": "Under",
+                    "status": "O",
+                    "type": "U",
+                    "price": {
+                      "id": "11419467674",
+                      "handicap": "42.5",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  }
+                ]
+              }
+            ],
+            "order": 1
+          }
+        ]
+      },
+      {
+        "id": "10786582",
+        "description": "Green Bay Packers @ Tampa Bay Buccaneers",
+        "type": "GAMEEVENT",
+        "link": "/football/nfl/green-bay-packers-tampa-bay-buccaneers-202209251625",
+        "status": "O",
+        "sport": "FOOT",
+        "startTime": 1664137500000,
+        "live": false,
+        "awayTeamFirst": true,
+        "denySameGame": "NO",
+        "teaserAllowed": true,
+        "competitionId": "241",
+        "notes": "Week 3",
+        "numMarkets": 3,
+        "lastModified": 1663324803753,
+        "competitors": [
+          {
+            "id": "10786582-11904225",
+            "name": "Tampa Bay Buccaneers",
+            "home": true
+          },
+          {
+            "id": "10786582-11904228",
+            "name": "Green Bay Packers",
+            "home": false
+          }
+        ],
+        "displayGroups": [
+          {
+            "id": "100-41",
+            "description": "Game Lines",
+            "defaultType": true,
+            "alternateType": false,
+            "markets": [
+              {
+                "id": "213355141",
+                "descriptionKey": "Main Dynamic Asian Handicap",
+                "description": "Point Spread",
+                "key": "2W-HCAP",
+                "marketTypeId": "120718",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1140160648",
+                    "description": "Green Bay Packers",
+                    "status": "O",
+                    "type": "A",
+                    "competitorId": "10786582-11904228",
+                    "price": {
+                      "id": "11427109884",
+                      "handicap": "3.0",
+                      "american": "EVEN",
+                      "decimal": "2.00",
+                      "fractional": "1/1",
+                      "malay": "1.00",
+                      "indonesian": "1.00",
+                      "hongkong": "1.00"
+                    }
+                  },
+                  {
+                    "id": "1140160649",
+                    "description": "Tampa Bay Buccaneers",
+                    "status": "O",
+                    "type": "H",
+                    "competitorId": "10786582-11904225",
+                    "price": {
+                      "id": "11427109883",
+                      "handicap": "-3.0",
+                      "american": "-120",
+                      "decimal": "1.833333",
+                      "fractional": "5/6",
+                      "malay": "0.83",
+                      "indonesian": "-1.20",
+                      "hongkong": "0.83"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "213355157",
+                "descriptionKey": "Head To Head",
+                "description": "Moneyline",
+                "key": "2W-12",
+                "marketTypeId": "11",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1140160624",
+                    "description": "Green Bay Packers",
+                    "status": "O",
+                    "type": "A",
+                    "competitorId": "10786582-11904228",
+                    "price": {
+                      "id": "11419462010",
+                      "american": "+140",
+                      "decimal": "2.400",
+                      "fractional": "7/5",
+                      "malay": "-0.71",
+                      "indonesian": "1.40",
+                      "hongkong": "1.40"
+                    }
+                  },
+                  {
+                    "id": "1140160625",
+                    "description": "Tampa Bay Buccaneers",
+                    "status": "O",
+                    "type": "H",
+                    "competitorId": "10786582-11904225",
+                    "price": {
+                      "id": "11419462009",
+                      "american": "-165",
+                      "decimal": "1.606061",
+                      "fractional": "20/33",
+                      "malay": "0.61",
+                      "indonesian": "-1.65",
+                      "hongkong": "0.61"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "213355142",
+                "descriptionKey": "Main Dynamic Over/Under",
+                "description": "Total",
+                "key": "2W-OU",
+                "marketTypeId": "120717",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1140160634",
+                    "description": "Over",
+                    "status": "O",
+                    "type": "O",
+                    "price": {
+                      "id": "11428003529",
+                      "handicap": "47.5",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  },
+                  {
+                    "id": "1140160635",
+                    "description": "Under",
+                    "status": "O",
+                    "type": "U",
+                    "price": {
+                      "id": "11428003528",
+                      "handicap": "47.5",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  }
+                ]
+              }
+            ],
+            "order": 1
+          }
+        ]
+      },
+      {
+        "id": "10630376",
+        "description": "Los Angeles Rams @ Arizona Cardinals",
+        "type": "GAMEEVENT",
+        "link": "/football/nfl/los-angeles-rams-arizona-cardinals-202209251625",
+        "status": "O",
+        "sport": "FOOT",
+        "startTime": 1664137500000,
+        "live": false,
+        "awayTeamFirst": true,
+        "denySameGame": "NO",
+        "teaserAllowed": true,
+        "competitionId": "241",
+        "notes": "Week 3",
+        "numMarkets": 3,
+        "lastModified": 1663324821930,
+        "competitors": [
+          {
+            "id": "10630376-11904247",
+            "name": "Arizona Cardinals",
+            "home": true
+          },
+          {
+            "id": "10630376-11904226",
+            "name": "Los Angeles Rams",
+            "home": false
+          }
+        ],
+        "displayGroups": [
+          {
+            "id": "100-41",
+            "description": "Game Lines",
+            "defaultType": true,
+            "alternateType": false,
+            "markets": [
+              {
+                "id": "208009261",
+                "descriptionKey": "Main Dynamic Asian Handicap",
+                "description": "Point Spread",
+                "key": "2W-HCAP",
+                "marketTypeId": "120718",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1118607232",
+                    "description": "Los Angeles Rams",
+                    "status": "O",
+                    "type": "A",
+                    "competitorId": "10630376-11904226",
+                    "price": {
+                      "id": "11419468950",
+                      "handicap": "-4.5",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  },
+                  {
+                    "id": "1118607233",
+                    "description": "Arizona Cardinals",
+                    "status": "O",
+                    "type": "H",
+                    "competitorId": "10630376-11904247",
+                    "price": {
+                      "id": "11419468951",
+                      "handicap": "4.5",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "208009243",
+                "descriptionKey": "Head To Head",
+                "description": "Moneyline",
+                "key": "2W-12",
+                "marketTypeId": "11",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1118607208",
+                    "description": "Los Angeles Rams",
+                    "status": "O",
+                    "type": "A",
+                    "competitorId": "10630376-11904226",
+                    "price": {
+                      "id": "11419468954",
+                      "american": "-210",
+                      "decimal": "1.47619",
+                      "fractional": "10/21",
+                      "malay": "0.48",
+                      "indonesian": "-2.10",
+                      "hongkong": "0.48"
+                    }
+                  },
+                  {
+                    "id": "1118607209",
+                    "description": "Arizona Cardinals",
+                    "status": "O",
+                    "type": "H",
+                    "competitorId": "10630376-11904247",
+                    "price": {
+                      "id": "11419468955",
+                      "american": "+175",
+                      "decimal": "2.750",
+                      "fractional": "7/4",
+                      "malay": "-0.57",
+                      "indonesian": "1.75",
+                      "hongkong": "1.75"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "208009264",
+                "descriptionKey": "Main Dynamic Over/Under",
+                "description": "Total",
+                "key": "2W-OU",
+                "marketTypeId": "120717",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1118607218",
+                    "description": "Over",
+                    "status": "O",
+                    "type": "O",
+                    "price": {
+                      "id": "11419468952",
+                      "handicap": "51.5",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  },
+                  {
+                    "id": "1118607219",
+                    "description": "Under",
+                    "status": "O",
+                    "type": "U",
+                    "price": {
+                      "id": "11419468953",
+                      "handicap": "51.5",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  }
+                ]
+              }
+            ],
+            "order": 1
+          }
+        ]
+      },
+      {
+        "id": "10630381",
+        "description": "San Francisco 49ers @ Denver Broncos",
+        "type": "GAMEEVENT",
+        "link": "/football/nfl/san-francisco-49ers-denver-broncos-202209252020",
+        "status": "O",
+        "sport": "FOOT",
+        "startTime": 1664151600000,
+        "live": false,
+        "awayTeamFirst": true,
+        "denySameGame": "NO",
+        "teaserAllowed": true,
+        "competitionId": "241",
+        "notes": "Week 3",
+        "numMarkets": 3,
+        "lastModified": 1663343249669,
+        "competitors": [
+          {
+            "id": "10630381-11904245",
+            "name": "Denver Broncos",
+            "home": true
+          },
+          {
+            "id": "10630381-11904233",
+            "name": "San Francisco 49ers",
+            "home": false
+          }
+        ],
+        "displayGroups": [
+          {
+            "id": "100-41",
+            "description": "Game Lines",
+            "defaultType": true,
+            "alternateType": false,
+            "markets": [
+              {
+                "id": "208009609",
+                "descriptionKey": "Main Dynamic Asian Handicap",
+                "description": "Point Spread",
+                "key": "2W-HCAP",
+                "marketTypeId": "120718",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1118608295",
+                    "description": "San Francisco 49ers",
+                    "status": "O",
+                    "type": "A",
+                    "competitorId": "10630381-11904233",
+                    "price": {
+                      "id": "11427080398",
+                      "handicap": "3.0",
+                      "american": "-120",
+                      "decimal": "1.833333",
+                      "fractional": "5/6",
+                      "malay": "0.83",
+                      "indonesian": "-1.20",
+                      "hongkong": "0.83"
+                    }
+                  },
+                  {
+                    "id": "1118608296",
+                    "description": "Denver Broncos",
+                    "status": "O",
+                    "type": "H",
+                    "competitorId": "10630381-11904245",
+                    "price": {
+                      "id": "11427080397",
+                      "handicap": "-3.0",
+                      "american": "EVEN",
+                      "decimal": "2.00",
+                      "fractional": "1/1",
+                      "malay": "1.00",
+                      "indonesian": "1.00",
+                      "hongkong": "1.00"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "208009596",
+                "descriptionKey": "Head To Head",
+                "description": "Moneyline",
+                "key": "2W-12",
+                "marketTypeId": "11",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1118608251",
+                    "description": "San Francisco 49ers",
+                    "status": "O",
+                    "type": "A",
+                    "competitorId": "10630381-11904233",
+                    "price": {
+                      "id": "11419471869",
+                      "american": "+130",
+                      "decimal": "2.300",
+                      "fractional": "13/10",
+                      "malay": "-0.77",
+                      "indonesian": "1.30",
+                      "hongkong": "1.30"
+                    }
+                  },
+                  {
+                    "id": "1118608252",
+                    "description": "Denver Broncos",
+                    "status": "O",
+                    "type": "H",
+                    "competitorId": "10630381-11904245",
+                    "price": {
+                      "id": "11419471868",
+                      "american": "-150",
+                      "decimal": "1.666667",
+                      "fractional": "2/3",
+                      "malay": "0.67",
+                      "indonesian": "-1.50",
+                      "hongkong": "0.67"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "208009610",
+                "descriptionKey": "Main Dynamic Over/Under",
+                "description": "Total",
+                "key": "2W-OU",
+                "marketTypeId": "120717",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1118608270",
+                    "description": "Over",
+                    "status": "O",
+                    "type": "O",
+                    "price": {
+                      "id": "11427110099",
+                      "handicap": "45.5",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  },
+                  {
+                    "id": "1118608272",
+                    "description": "Under",
+                    "status": "O",
+                    "type": "U",
+                    "price": {
+                      "id": "11427110100",
+                      "handicap": "45.5",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  }
+                ]
+              }
+            ],
+            "order": 1
+          }
+        ]
+      },
+      {
+        "id": "10786593",
+        "description": "Dallas Cowboys @ New York Giants",
+        "type": "GAMEEVENT",
+        "link": "/football/nfl/dallas-cowboys-new-york-giants-202209262015",
+        "status": "O",
+        "sport": "FOOT",
+        "startTime": 1664237700000,
+        "live": false,
+        "awayTeamFirst": true,
+        "denySameGame": "NO",
+        "teaserAllowed": true,
+        "competitionId": "241",
+        "notes": "Week 3",
+        "numMarkets": 31,
+        "lastModified": 1663314236509,
+        "competitors": [
+          {
+            "id": "10786593-11904218",
+            "name": "New York Giants",
+            "home": true
+          },
+          {
+            "id": "10786593-11904234",
+            "name": "Dallas Cowboys",
+            "home": false
+          }
+        ],
+        "displayGroups": [
+          {
+            "id": "100-41",
+            "description": "Game Lines",
+            "defaultType": true,
+            "alternateType": false,
+            "markets": [
+              {
+                "id": "213355935",
+                "descriptionKey": "Main Dynamic Asian Handicap",
+                "description": "Point Spread",
+                "key": "2W-HCAP",
+                "marketTypeId": "120718",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1140164038",
+                    "description": "Dallas Cowboys",
+                    "status": "O",
+                    "type": "A",
+                    "competitorId": "10786593-11904234",
+                    "price": {
+                      "id": "11419494272",
+                      "handicap": "4.0",
+                      "american": "-105",
+                      "decimal": "1.952381",
+                      "fractional": "20/21",
+                      "malay": "0.95",
+                      "indonesian": "-1.05",
+                      "hongkong": "0.95"
+                    }
+                  },
+                  {
+                    "id": "1140164039",
+                    "description": "New York Giants",
+                    "status": "O",
+                    "type": "H",
+                    "competitorId": "10786593-11904218",
+                    "price": {
+                      "id": "11419494271",
+                      "handicap": "-4.0",
+                      "american": "-115",
+                      "decimal": "1.870",
+                      "fractional": "20/23",
+                      "malay": "0.87",
+                      "indonesian": "-1.15",
+                      "hongkong": "0.87"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "213355920",
+                "descriptionKey": "Head To Head",
+                "description": "Moneyline",
+                "key": "2W-12",
+                "marketTypeId": "11",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1140164013",
+                    "description": "Dallas Cowboys",
+                    "status": "O",
+                    "type": "A",
+                    "competitorId": "10786593-11904234",
+                    "price": {
+                      "id": "11419494281",
+                      "american": "+165",
+                      "decimal": "2.650",
+                      "fractional": "33/20",
+                      "malay": "-0.61",
+                      "indonesian": "1.65",
+                      "hongkong": "1.65"
+                    }
+                  },
+                  {
+                    "id": "1140164014",
+                    "description": "New York Giants",
+                    "status": "O",
+                    "type": "H",
+                    "competitorId": "10786593-11904218",
+                    "price": {
+                      "id": "11419494282",
+                      "american": "-195",
+                      "decimal": "1.512821",
+                      "fractional": "20/39",
+                      "malay": "0.51",
+                      "indonesian": "-1.95",
+                      "hongkong": "0.51"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "213355948",
+                "descriptionKey": "Main Dynamic Over/Under",
+                "description": "Total",
+                "key": "2W-OU",
+                "marketTypeId": "120717",
+                "status": "O",
+                "singleOnly": false,
+                "notes": "",
+                "period": {
+                  "id": "119",
+                  "description": "Game",
+                  "abbreviation": "G",
+                  "live": false,
+                  "main": true
+                },
+                "outcomes": [
+                  {
+                    "id": "1140164023",
+                    "description": "Over",
+                    "status": "O",
+                    "type": "O",
+                    "price": {
+                      "id": "11419494279",
+                      "handicap": "40.5",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  },
+                  {
+                    "id": "1140164025",
+                    "description": "Under",
+                    "status": "O",
+                    "type": "U",
+                    "price": {
+                      "id": "11419494280",
+                      "handicap": "40.5",
+                      "american": "-110",
+                      "decimal": "1.909091",
+                      "fractional": "10/11",
+                      "malay": "0.91",
+                      "indonesian": "-1.10",
+                      "hongkong": "0.91"
+                    }
+                  }
+                ]
+              }
+            ],
+            "order": 1
+          }
+        ]
+      }
+    ]
+  }
+]
